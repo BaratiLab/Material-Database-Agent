@@ -1,0 +1,3 @@
+cd /home/ash/matdatabase/marker_pdfs
+export MARKER_CHUNK_CONVERT_BIN=/home/ash/matdatabase/marker/.venv/bin/marker_chunk_convert
+./.venv/bin/python main.py
