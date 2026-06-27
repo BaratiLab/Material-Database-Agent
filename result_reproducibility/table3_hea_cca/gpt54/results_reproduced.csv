@@ -1,0 +1,5 @@
+property,MAE,n_comparable_rows
+sigma_Y (MPa),137.5250,40
+sigma_max (MPa),71.9375,16
+epsilon (%),0.6456,25
+E (GPa),56.4333,15

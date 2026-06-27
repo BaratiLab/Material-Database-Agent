@@ -1,0 +1,101 @@
+original_row,reconstructed_row,original_material,reconstructed_material,power,velocity,layer_thickness,original_paper_id,reconstructed_paper_id,notes
+2,2,Ti-6Al-4V,Ti-6Al-4V,280,1200,30,1,addma_2020_gordon,exact field match with normalized paper id
+3,3,Ti-6Al-4V,Ti-6Al-4V,280,400,30,1,addma_2020_gordon,exact field match with normalized paper id
+4,4,Ti-6Al-4V,Ti-6Al-4V,280,800,30,1,addma_2020_gordon,exact field match with normalized paper id
+5,5,Ti-6Al-4V,Ti-6Al-4V,280,1000,30,1,addma_2020_gordon,exact field match with normalized paper id
+6,6,Ti-6Al-4V,Ti-6Al-4V,280,1500,30,1,addma_2020_gordon,exact field match with normalized paper id
+7,7,Ti-6Al-4V,Ti-6Al-4V,370,1200,30,1,addma_2020_gordon,exact field match with normalized paper id
+8,8,Ti-6Al-4V,Ti-6Al-4V,325,1200,30,1,addma_2020_gordon,exact field match with normalized paper id
+9,9,Ti-6Al-4V,Ti-6Al-4V,100,1200,30,1,addma_2020_gordon,exact field match with normalized paper id
+10,10,Ti-6Al-4V,Ti-6Al-4V,165,1200,30,1,addma_2020_gordon,exact field match with normalized paper id
+11,11,Ti-6Al-4V,Ti-6Al-4V,280,1200,30,1,addma_2020_gordon,exact field match with normalized paper id
+12,12,Ti-6Al-4V,Ti-6Al-4V,280,1200,30,1,addma_2020_gordon,exact field match with normalized paper id
+13,13,Ti-6Al-4V,Ti-6Al-4V,370,1000,30,1,addma_2020_gordon,exact field match with normalized paper id
+327,165,SS316L,316L Stainless Steel,100,150,75,16,file16,material normalized but same paper and process row
+328,166,SS316L,316L Stainless Steel,100,200,75,16,file16,material normalized but same paper and process row
+329,163,SS316L,316L Stainless Steel,100,300,75,16,file16,material normalized but same paper and process row
+330,164,SS316L,316L Stainless Steel,200,300,75,16,file16,material normalized but same paper and process row
+331,167,SS316L,316L Stainless Steel,200,400,75,16,file16,material normalized but same paper and process row
+332,168,SS316L,316L Stainless Steel,200,600,75,16,file16,material normalized but same paper and process row
+428,209,SS316L,316L Stainless Steel,100,400,30,20,file20,material normalized but same paper and process row
+429,210,SS316L,316L Stainless Steel,100,500,30,20,file20,material normalized but same paper and process row
+430,211,SS316L,316L Stainless Steel,100,600,30,20,file20,material normalized but same paper and process row
+431,212,SS316L,316L Stainless Steel,100,700,30,20,file20,material normalized but same paper and process row
+432,213,SS316L,316L Stainless Steel,100,800,30,20,file20,material normalized but same paper and process row
+433,214,SS316L,316L Stainless Steel,100,900,30,20,file20,material normalized but same paper and process row
+434,215,SS316L,316L Stainless Steel,100,1000,30,20,file20,material normalized but same paper and process row
+435,216,SS316L,316L Stainless Steel,100,1100,30,20,file20,material normalized but same paper and process row
+436,217,SS316L,316L Stainless Steel,200,400,30,20,file20,material normalized but same paper and process row
+437,218,SS316L,316L Stainless Steel,200,500,30,20,file20,material normalized but same paper and process row
+438,219,SS316L,316L Stainless Steel,200,600,30,20,file20,material normalized but same paper and process row
+439,220,SS316L,316L Stainless Steel,200,700,30,20,file20,material normalized but same paper and process row
+440,221,SS316L,316L Stainless Steel,200,800,30,20,file20,material normalized but same paper and process row
+441,222,SS316L,316L Stainless Steel,200,900,30,20,file20,material normalized but same paper and process row
+442,223,SS316L,316L Stainless Steel,200,1000,30,20,file20,material normalized but same paper and process row
+443,224,SS316L,316L Stainless Steel,200,1100,30,20,file20,material normalized but same paper and process row
+444,225,SS316L,316L Stainless Steel,300,400,30,20,file20,material normalized but same paper and process row
+445,226,SS316L,316L Stainless Steel,300,500,30,20,file20,material normalized but same paper and process row
+446,227,SS316L,316L Stainless Steel,300,600,30,20,file20,material normalized but same paper and process row
+447,228,SS316L,316L Stainless Steel,300,700,30,20,file20,material normalized but same paper and process row
+448,229,SS316L,316L Stainless Steel,300,800,30,20,file20,material normalized but same paper and process row
+449,230,SS316L,316L Stainless Steel,300,900,30,20,file20,material normalized but same paper and process row
+450,231,SS316L,316L Stainless Steel,300,1000,30,20,file20,material normalized but same paper and process row
+451,232,SS316L,316L Stainless Steel,300,1100,30,20,file20,material normalized but same paper and process row
+452,233,SS316L,316L Stainless Steel,400,400,30,20,file20,material normalized but same paper and process row
+453,234,SS316L,316L Stainless Steel,400,500,30,20,file20,material normalized but same paper and process row
+454,235,SS316L,316L Stainless Steel,400,600,30,20,file20,material normalized but same paper and process row
+455,236,SS316L,316L Stainless Steel,400,700,30,20,file20,material normalized but same paper and process row
+456,237,SS316L,316L Stainless Steel,400,800,30,20,file20,material normalized but same paper and process row
+457,238,SS316L,316L Stainless Steel,400,900,30,20,file20,material normalized but same paper and process row
+458,239,SS316L,316L Stainless Steel,400,1000,30,20,file20,material normalized but same paper and process row
+459,240,SS316L,316L Stainless Steel,400,1100,30,20,file20,material normalized but same paper and process row
+460,241,SS316L,316L Stainless Steel,500,400,30,20,file20,material normalized but same paper and process row
+461,242,SS316L,316L Stainless Steel,500,500,30,20,file20,material normalized but same paper and process row
+462,243,SS316L,316L Stainless Steel,500,600,30,20,file20,material normalized but same paper and process row
+463,244,SS316L,316L Stainless Steel,500,700,30,20,file20,material normalized but same paper and process row
+464,245,SS316L,316L Stainless Steel,500,800,30,20,file20,material normalized but same paper and process row
+465,246,SS316L,316L Stainless Steel,500,900,30,20,file20,material normalized but same paper and process row
+466,247,SS316L,316L Stainless Steel,500,1000,30,20,file20,material normalized but same paper and process row
+467,248,SS316L,316L Stainless Steel,500,1100,30,20,file20,material normalized but same paper and process row
+468,249,SS316L,316L Stainless Steel,600,400,30,20,file20,material normalized but same paper and process row
+469,250,SS316L,316L Stainless Steel,600,500,30,20,file20,material normalized but same paper and process row
+470,251,SS316L,316L Stainless Steel,600,600,30,20,file20,material normalized but same paper and process row
+508,346,SS17-4PH,17-4PH Stainless Steel,100,400,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+510,347,SS17-4PH,17-4PH Stainless Steel,100,600,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+512,348,SS17-4PH,17-4PH Stainless Steel,100,800,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+517,349,SS17-4PH,17-4PH Stainless Steel,150,600,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+518,350,SS17-4PH,17-4PH Stainless Steel,150,800,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+527,352,SS17-4PH,17-4PH Stainless Steel,200,1000,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+535,353,SS17-4PH,17-4PH Stainless Steel,300,1200,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+536,354,SS17-4PH,17-4PH Stainless Steel,300,1400,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+543,355,SS17-4PH,17-4PH Stainless Steel,900,400,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+544,356,SS17-4PH,17-4PH Stainless Steel,900,500,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+545,357,SS17-4PH,17-4PH Stainless Steel,900,600,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+552,358,SS17-4PH,17-4PH Stainless Steel,1350,600,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+553,359,SS17-4PH,17-4PH Stainless Steel,1350,800,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+561,360,SS17-4PH,17-4PH Stainless Steel,1800,800,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+563,361,SS17-4PH,17-4PH Stainless Steel,1800,1200,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+570,362,SS17-4PH,17-4PH Stainless Steel,2700,1200,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+573,363,SS17-4PH,17-4PH Stainless Steel,2700,1800,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+576,364,SS17-4PH,17-4PH Stainless Steel,2700,2400,50,25,metals-2018-08-00475,material normalized and paper matched by title/DOI
+56,599,IN625,IN625 (Inconel 625),160,2800,40,6,file6,material normalized but same paper and parameter row
+57,600,IN625,IN625 (Inconel 625),160,2800,40,6,file6,material normalized but same paper and parameter row
+58,601,IN625,IN625 (Inconel 625),160,2800,40,6,file6,material normalized but same paper and parameter row
+59,602,IN625,IN625 (Inconel 625),160,2800,40,6,file6,material normalized but same paper and parameter row
+60,603,IN625,IN625 (Inconel 625),160,2800,40,6,file6,material normalized but same paper and parameter row
+61,604,IN625,IN625 (Inconel 625),160,2800,40,6,file6,material normalized but same paper and parameter row
+62,605,IN625,IN625 (Inconel 625),225,1940,40,6,file6,material normalized but same paper and parameter row
+63,606,IN625,IN625 (Inconel 625),225,1940,40,6,file6,material normalized but same paper and parameter row
+64,607,IN625,IN625 (Inconel 625),225,1940,40,6,file6,material normalized but same paper and parameter row
+65,608,IN625,IN625 (Inconel 625),225,1940,40,6,file6,material normalized but same paper and parameter row
+66,609,IN625,IN625 (Inconel 625),225,1940,40,6,file6,material normalized but same paper and parameter row
+67,610,IN625,IN625 (Inconel 625),225,1940,40,6,file6,material normalized but same paper and parameter row
+68,611,IN625,IN625 (Inconel 625),225,1940,40,6,file6,material normalized but same paper and parameter row
+69,612,IN625,IN625 (Inconel 625),350,1680,40,6,file6,material normalized but same paper and parameter row
+70,613,IN625,IN625 (Inconel 625),350,1680,40,6,file6,material normalized but same paper and parameter row
+71,614,IN625,IN625 (Inconel 625),350,1680,40,6,file6,material normalized but same paper and parameter row
+72,615,IN625,IN625 (Inconel 625),350,1680,40,6,file6,material normalized but same paper and parameter row
+73,616,IN625,IN625 (Inconel 625),350,1680,40,6,file6,material normalized but same paper and parameter row
+578,373,Ti-45Al,Ti-45Al,125,20,150,26,file26,exact material with normalized paper id
+580,378,Ti-45Al,Ti-45Al,175,20,150,26,file26,exact material with normalized paper id
+581,379,Ti-45Al,Ti-45Al,200,20,150,26,file26,exact material with normalized paper id

@@ -4,12 +4,45 @@ This repository contains the PDF inputs and local tooling needed to reproduce th
 
 MDA is a multimodal, agentic literature-mining workflow. It converts scientific PDFs into markdown and extracted figures, sends each paper's parsed content to specialized subagents, writes one intermediate JSON file per paper, and then aggregates those JSON files into a final CSV material database.
 
+## Reproducing The Paper's Benchmark Tables
+
+The [`result_reproducibility/`](result_reproducibility/) folder lets anyone regenerate the two quantitative benchmark tables from the paper directly from the released data, with **no LLM calls and no third-party Python packages** (standard library only, Python 3.8+).
+
+It covers both benchmark tables across all five backbone models:
+
+| Folder   | Model            | Agent environment |
+|----------|------------------|-------------------|
+| `gpt54`  | GPT-5.4          | Codex CLI         |
+| `gpt52`  | GPT-5.2          | Codex CLI         |
+| `claude` | Claude Opus 4.6  | Claude Code       |
+| `glm`    | GLM 5V Turbo     | Claude Code       |
+| `qwen`   | Qwen-3.5-397B    | Claude Code       |
+
+For each table/model the folder ships the original ground-truth dataset, the model's reconstructed dataset, the frozen 100-pair manual row mapping used in the paper, and an `evaluate.py` that re-reads those artifacts and recomputes the published metrics:
+
+- [`result_reproducibility/table2_meltpoolnet/`](result_reproducibility/table2_meltpoolnet/) - Table 2: precision / recall / F1 for selected MeltpoolNet fields plus melting-temperature MAE.
+- [`result_reproducibility/table3_hea_cca/`](result_reproducibility/table3_hea_cca/) - Table 3: MAE of four mechanical properties for the HEA/CCA benchmark.
+
+```bash
+# Table 2 - all five models
+cd result_reproducibility/table2_meltpoolnet && python3 run_all.py
+
+# Table 3 - all five models
+cd ../table3_hea_cca && python3 run_all.py
+
+# Or a single cell, e.g. the Claude column of Table 3
+cd result_reproducibility/table3_hea_cca/claude && python3 evaluate.py
+```
+
+Each run writes a `results_reproduced.csv` next to the script. All twenty table cells (10 model/table combinations across both tables) reproduce the published numbers exactly. See [`result_reproducibility/README.md`](result_reproducibility/README.md) and each table's own `README.md` for per-cell expected values and the exact matching rules.
+
 ## Repository Contents
 
 - `PDFs_meltpoolnet/` - paper PDFs used for the MeltpoolNet benchmark.
 - `PDFs_refrac/` - paper PDFs used for the refractory HEA/CCA benchmark.
 - `BulkModulus_test_database_MPPolak_DMorgan.xlsx` - bulk modulus benchmark spreadsheet used for the prior text-only comparison.
 - `marker_pdfs/` - copied local MCP server for converting PDF folders to markdown with image extraction. The virtual environment from `/home/ash/matdatabase/marker_pdfs/.venv` was intentionally not copied.
+- `result_reproducibility/` - self-contained, dependency-free scripts and data that deterministically recompute the paper's two quantitative benchmark tables (Table 2 and Table 3) for all five backbone models. See [Reproducing The Paper's Benchmark Tables](#reproducing-the-papers-benchmark-tables).
 
 ## Marker PDFs MCP Server
 

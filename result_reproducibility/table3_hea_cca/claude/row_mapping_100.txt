@@ -1,0 +1,128 @@
+Row mapping between `table_1.csv` and `refractory_hea_data.csv`
+
+Method:
+- Preserved the 50 fixed pairs already listed in `row_mapping.txt`.
+- Normalized composition by relative element fractions so re-ordered or re-scaled formulas map to the same alloy.
+- Parsed grouped formulas such as `(CuMnNi)95Al5` and stripped trailing condition annotations such as `(annealed 773K)` before matching.
+- Added the next 50 best unmatched one-to-one pairs within each normalized composition group by the closest hardness `HV`.
+- Numeric comparisons use the first numeric token in each cell when annotations are present.
+
+Summary:
+- Total mapped rows: 100
+- Exact `HV` matches (`|ΔHV| = 0`): 91
+- Non-exact `HV` matches: 9
+
+MAE on these 100 mapped rows:
+- `σY (MPa)`: 0.2949 over 39 comparable rows
+- `σmax (MPa)`: 1.8136 over 22 comparable rows
+- `ε (%)`: 0.2253 over 38 comparable rows
+- `E (GPa)`: 4.1333 over 15 comparable rows
+
+Columns:
+- `orig_line`: line number in `table_1.csv`
+- `recon_line`: line number in `refractory_hea_data.csv`
+- `orig_HV` / `recon_HV`: hardness values used for matching
+- `abs_delta_HV`: absolute hardness difference
+- `matched_on`: composition normalization plus hardness criterion
+- `comparable_fields`: fields present in both rows and used for MAE
+
+1. orig_line=247 | recon_line=353 | orig_comp=Al22.5Cu20Fe15Ni20Ti22.5 | recon_comp=Al22.5Ti22.5Ni20Cu20Fe15 | orig_HV=516 | recon_HV=516 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon,E
+2. orig_line=44 | recon_line=144 | orig_comp=AlCoCrFeNi | recon_comp=AlCoCrFeNi | orig_HV=520 | recon_HV=520 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+3. orig_line=83 | recon_line=145 | orig_comp=AlCoCrFeNb0.1Ni | recon_comp=AlCoCrFeNb0.1Ni | orig_HV=569 | recon_HV=569 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+4. orig_line=264 | recon_line=388 | orig_comp=AlMo0.5NbTa00.5TiZr | recon_comp=AlMo0.5NbTa0.5TiZr | orig_HV=591 | recon_HV=591 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+5. orig_line=272 | recon_line=400 | orig_comp=Al0.3NbTa0.8Ti1.4V0.2Zr1.3 | recon_comp=Al0.3NbTa0.8Ti1.4V0.2Zr1.3 | orig_HV=500 | recon_HV=500 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+6. orig_line=273 | recon_line=403 | orig_comp=Al0.5NbTa0.8Ti1.5V0.2Zr | recon_comp=Al0.5NbTa0.8Ti1.5V0.2Zr | orig_HV=530 | recon_HV=530 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+7. orig_line=275 | recon_line=391 | orig_comp=AlNb1.5Ta0.5Ti1.5Zr0.5 | recon_comp=AlNb1.5Ta0.5Ti1.5Zr0.5 | orig_HV=408 | recon_HV=408 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+8. orig_line=276 | recon_line=421 | orig_comp=AlNbTiV | recon_comp=AlNbTiV | orig_HV=448 | recon_HV=448 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+9. orig_line=301 | recon_line=519 | orig_comp=Hf0.5Nb0.5Ta0.5Ti1.5Zr | recon_comp=Hf0.5Nb0.5Ta0.5Ti1.5Zr | orig_HV=301 | recon_HV=301 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+10. orig_line=307 | recon_line=543 | orig_comp=MoNbTaV | recon_comp=MoNbTaV | orig_HV=504 | recon_HV=504 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+11. orig_line=29 | recon_line=96 | orig_comp=Al0.7Co0.3CrFeNi | recon_comp=FeNiCrCo0.3Al0.7 | orig_HV=624 | recon_HV=624 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+12. orig_line=84 | recon_line=146 | orig_comp=AlCoCrFeNb0.25Ni | recon_comp=AlCoCrFeNb0.25Ni | orig_HV=668 | recon_HV=668 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+13. orig_line=85 | recon_line=147 | orig_comp=AlCoCrFeNb0.5Ni | recon_comp=AlCoCrFeNb0.5Ni | orig_HV=747 | recon_HV=747 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+14. orig_line=261 | recon_line=407 | orig_comp=Al0.3HfNbTaTiZr | recon_comp=Al0.3HfNbTaTiZr | orig_HV=353 | recon_HV=353 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+15. orig_line=262 | recon_line=408 | orig_comp=Al0.5HfNbTaTiZr | recon_comp=Al0.5HfNbTaTiZr | orig_HV=396 | recon_HV=396 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+16. orig_line=263 | recon_line=409 | orig_comp=Al0.75HfNbTaTiZr | recon_comp=Al0.75HfNbTaTiZr | orig_HV=427 | recon_HV=427 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+17. orig_line=291 | recon_line=475 | orig_comp=HfMo0.25NbTaTiZr | recon_comp=HfMo0.25NbTaTiZr | orig_HV=395 | recon_HV=395 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+18. orig_line=292 | recon_line=476 | orig_comp=HfMo0.5NbTaTiZr | recon_comp=HfMo0.5NbTaTiZr | orig_HV=480 | recon_HV=480 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+19. orig_line=293 | recon_line=477 | orig_comp=HfMo0.75NbTaTiZr | recon_comp=HfMo0.75NbTaTiZr | orig_HV=492 | recon_HV=492 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+20. orig_line=294 | recon_line=478 | orig_comp=HfMoNbTaTiZr | recon_comp=HfMoNbTaTiZr | orig_HV=505 | recon_HV=505 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+21. orig_line=298 | recon_line=494 | orig_comp=HfNbSi0.5TiV | recon_comp=HfNbTiVSi0.5 | orig_HV=490 | recon_HV=490 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+22. orig_line=299 | recon_line=497 | orig_comp=HfNbSi0.5TiVZr | recon_comp=HfNbSi0.5TiVZr | orig_HV=464 | recon_HV=464 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,sigma_max,epsilon
+23. orig_line=302 | recon_line=474 | orig_comp=HfNbTaTiZr | recon_comp=HfNbTaTiZr | orig_HV=335 | recon_HV=335 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+24. orig_line=303 | recon_line=406 | orig_comp=HfNbTaTiZr | recon_comp=HfNbTaTiZr | orig_HV=295 | recon_HV=295 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon,E
+25. orig_line=225 | recon_line=331 | orig_comp=CoCuFeMnNi | recon_comp=FeMnNiCuCo | orig_HV=208 | recon_HV=208 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_max,epsilon
+26. orig_line=295 | recon_line=483 | orig_comp=HfMoNbTaTiZr | recon_comp=HfMoNbTaTiZr | orig_HV=505 | recon_HV=505 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon
+27. orig_line=296 | recon_line=479 | orig_comp=HfMoTaTiZr | recon_comp=HfMoTaTiZr | orig_HV=542 | recon_HV=542 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon
+28. orig_line=304 | recon_line=504 | orig_comp=HfNbTaTiZr | recon_comp=TaNbHfZrTi | orig_HV=9.9 | recon_HV=390 | abs_delta_HV=380.1 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+29. orig_line=227 | recon_line=333 | orig_comp=CoCuFeMnNiSn0.05 | recon_comp=FeMnNiCuCoSn0.05 | orig_HV=205 | recon_HV=205 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_max,epsilon
+30. orig_line=228 | recon_line=334 | orig_comp=CoCuFeMnNiSn0.08 | recon_comp=FeMnNiCuCoSn0.08 | orig_HV=219 | recon_HV=219 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_max,epsilon
+31. orig_line=281 | recon_line=450 | orig_comp=CrNbTiZr | recon_comp=CrNbTiZr | orig_HV=418 | recon_HV=418 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon
+32. orig_line=329 | recon_line=587 | orig_comp=NbTaTiVW | recon_comp=NbTaTiVW | orig_HV=447 | recon_HV=447 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,epsilon
+33. orig_line=339 | recon_line=442 | orig_comp=NbTiVZr | recon_comp=NbTiVZr | orig_HV=335 | recon_HV=335 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y,E
+34. orig_line=2 | recon_line=2 | orig_comp=CoFeNi | recon_comp=CoFeNi | orig_HV=125 | recon_HV=125 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y
+35. orig_line=10 | recon_line=5 | orig_comp=Al0.75CoFeNi | recon_comp=Al0.75CoFeNi | orig_HV=385 | recon_HV=385 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=sigma_y
+36. orig_line=152 | recon_line=104 | orig_comp=CoCrCuFeNi | recon_comp=FeNiCrCuCo | orig_HV=286 | recon_HV=286 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+37. orig_line=12 | recon_line=56 | orig_comp=CoCrFeNi | recon_comp=CoCrFeNi | orig_HV=116 | recon_HV=116 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+38. orig_line=13 | recon_line=66 | orig_comp=CoCrFeNi | recon_comp=CoCrFeNi | orig_HV=113 | recon_HV=113 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+39. orig_line=21 | recon_line=92 | orig_comp=Co1.5CrFeNi1.5Ti0.5 | recon_comp=Co1.5CrFeNi1.5Ti0.5 | orig_HV=509 | recon_HV=509 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+40. orig_line=23 | recon_line=57 | orig_comp=Al0.25CoCrFeNi | recon_comp=Al0.25CoCrFeNi | orig_HV=110 | recon_HV=110 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+41. orig_line=24 | recon_line=67 | orig_comp=Al0.25CoCrFeNi | recon_comp=Al0.25CoCrFeNi | orig_HV=113 | recon_HV=113 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+42. orig_line=26 | recon_line=68 | orig_comp=Al0.375CoCrFeNi | recon_comp=Al0.375CoCrFeNi | orig_HV=196 | recon_HV=196 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+43. orig_line=27 | recon_line=59 | orig_comp=Al0.5CoCrFeNi | recon_comp=Al0.5CoCrFeNi | orig_HV=159 | recon_HV=159 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+44. orig_line=28 | recon_line=69 | orig_comp=Al0.5CoCrFeNi | recon_comp=Al0.5CoCrFeNi | orig_HV=209 | recon_HV=209 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+45. orig_line=30 | recon_line=60 | orig_comp=Al0.75CoCrFeNi | recon_comp=Al0.75CoCrFeNi | orig_HV=388 | recon_HV=388 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+46. orig_line=31 | recon_line=70 | orig_comp=Al0.75CoCrFeNi | recon_comp=Al0.75CoCrFeNi | orig_HV=280 | recon_HV=280 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+47. orig_line=33 | recon_line=61 | orig_comp=Al0.875CoCrFeNi | recon_comp=Al0.875CoCrFeNi | orig_HV=538 | recon_HV=538 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+48. orig_line=34 | recon_line=71 | orig_comp=Al0.875CoCrFeNi | recon_comp=Al0.875CoCrFeNi | orig_HV=361 | recon_HV=361 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+49. orig_line=35 | recon_line=62 | orig_comp=AlCoCrFeNi | recon_comp=AlCoCrFeNi | orig_HV=484 | recon_HV=484 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+50. orig_line=36 | recon_line=72 | orig_comp=AlCoCrFeNi | recon_comp=AlCoCrFeNi | orig_HV=433 | recon_HV=433 | abs_delta_HV=0 | matched_on=normalized relative composition + exact HV | comparable_fields=none
+51. orig_line=248 | recon_line=357 | orig_comp=AlCuFeNiTi | recon_comp=Al20Ti20Ni20Cu20Fe20 | orig_HV=516 | recon_HV=516 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y,sigma_max,epsilon,E
+52. orig_line=249 | recon_line=349 | orig_comp=AlCuNiTi | recon_comp=Al25Ti25Ni25Cu25 | orig_HV=537 | recon_HV=537 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y,sigma_max,epsilon,E
+53. orig_line=278 | recon_line=430 | orig_comp=CrHfNbTiZr | recon_comp=Ti20Zr20Hf20Nb20Cr20 | orig_HV=464 | recon_HV=464 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y,sigma_max,epsilon,E
+54. orig_line=305 | recon_line=425 | orig_comp=HfNbTiVZr | recon_comp=Ti20Zr20Hf20Nb20V20 | orig_HV=388 | recon_HV=388 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y,sigma_max,epsilon,E
+55. orig_line=104 | recon_line=218 | orig_comp=CoCrFeMnNi | recon_comp=Fe20Co20Ni20Cr20Mn20 | orig_HV=176 | recon_HV=176 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y,epsilon
+56. orig_line=300 | recon_line=514 | orig_comp=HfNbTaZr | recon_comp=TaNbHfZr (as-cast; HEA-0D) | orig_HV=365 | recon_HV=365 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y
+57. orig_line=22 | recon_line=94 | orig_comp=Co1.5CrFeNi1.5Ti | recon_comp=Co1.5CrFeNi1.5Ti | orig_HV=654 | recon_HV=654 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+58. orig_line=37 | recon_line=108 | orig_comp=AlCoCrFeNi | recon_comp=FeNiCrCoAl | orig_HV=395 | recon_HV=395 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+59. orig_line=45 | recon_line=63 | orig_comp=Al1.25CoCrFeNi | recon_comp=Al1.25CoCrFeNi | orig_HV=487 | recon_HV=487 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+60. orig_line=46 | recon_line=73 | orig_comp=Al1.25CoCrFeNi | recon_comp=Al1.25CoCrFeNi | orig_HV=499 | recon_HV=499 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+61. orig_line=47 | recon_line=64 | orig_comp=Al1.5CoCrFeNi | recon_comp=Al1.5CoCrFeNi | orig_HV=484 | recon_HV=484 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+62. orig_line=49 | recon_line=109 | orig_comp=Al1.5CoCrFeNi | recon_comp=FeNiCrCoAl1.5 | orig_HV=402 | recon_HV=402 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+63. orig_line=50 | recon_line=103 | orig_comp=Al2CoCrFeNi | recon_comp=FeNiCrCoAl2 | orig_HV=509 | recon_HV=509 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+64. orig_line=52 | recon_line=110 | orig_comp=Al2CoCrFeNi | recon_comp=FeNiCrCoAl2 | orig_HV=432 | recon_HV=432 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+65. orig_line=53 | recon_line=111 | orig_comp=Al2.5CoCrFeNi | recon_comp=FeNiCrCoAl2.5 | orig_HV=487 | recon_HV=487 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+66. orig_line=54 | recon_line=112 | orig_comp=Al3CoCrFeNi | recon_comp=FeNiCrCoAl3 | orig_HV=506 | recon_HV=506 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+67. orig_line=74 | recon_line=154 | orig_comp=AlCoCrFeMo0.5Ni | recon_comp=AlCoCrFe1.0Mo0.5Ni | orig_HV=730 | recon_HV=730 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+68. orig_line=93 | recon_line=93 | orig_comp=Al0.2Co1.5CrFeNi1.5Ti0.5 | recon_comp=Al0.2Co1.5CrFeNi1.5Ti0.5 | orig_HV=487 | recon_HV=487 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+69. orig_line=94 | recon_line=95 | orig_comp=Al0.2Co1.5CrFeNi1.5Ti | recon_comp=Al0.2Co1.5CrFeNi1.5Ti | orig_HV=717 | recon_HV=717 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+70. orig_line=103 | recon_line=191 | orig_comp=AlCoCrFeNiTiVZr | recon_comp=AlTiVFeNiZrCoCr | orig_HV=780 | recon_HV=780 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+71. orig_line=129 | recon_line=245 | orig_comp=Al0.5CrFe1.5MnNi0.5 | recon_comp=Al0.5CrFe1.5MnNi0.5 | orig_HV=396 | recon_HV=396 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+72. orig_line=130 | recon_line=238 | orig_comp=Al0.3CrFe1.5MnNi0.5 | recon_comp=Al0.3CrFe1.5MnNi0.5 | orig_HV=297 | recon_HV=297 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+73. orig_line=163 | recon_line=287 | orig_comp=Al0.5CoCrCuFeNi | recon_comp=Al0.5CoCrCuFeNi | orig_HV=225 | recon_HV=225 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+74. orig_line=168 | recon_line=311 | orig_comp=AlCoCrCuFeNi | recon_comp=FeCoNiCuAlCr | orig_HV=472 | recon_HV=472 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+75. orig_line=211 | recon_line=188 | orig_comp=AlCoFeNiTiVZr | recon_comp=AlTiVFeNiZrCo | orig_HV=790 | recon_HV=790 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+76. orig_line=224 | recon_line=313 | orig_comp=AlCoCuFeNiZr | recon_comp=FeCoNiCuAlZr | orig_HV=472 | recon_HV=472 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+77. orig_line=231 | recon_line=107 | orig_comp=CrCuFeMnNi | recon_comp=FeNiCrCuMn | orig_HV=296 | recon_HV=296 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+78. orig_line=232 | recon_line=105 | orig_comp=CrCuFeMoNi | recon_comp=FeNiCrCuMo | orig_HV=263 | recon_HV=263 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+79. orig_line=233 | recon_line=337 | orig_comp=AlCrCuFeNi0.6 | recon_comp=AlCrFeCuNi0.6 | orig_HV=496 | recon_HV=496 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+80. orig_line=234 | recon_line=338 | orig_comp=AlCrCuFeNi0.8 | recon_comp=AlCrFeCuNi0.8 | orig_HV=486 | recon_HV=486 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+81. orig_line=235 | recon_line=339 | orig_comp=AlCrCuFeNi | recon_comp=AlCrFeCuNi1.0 | orig_HV=495 | recon_HV=495 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+82. orig_line=236 | recon_line=340 | orig_comp=AlCrCuFeNi1.2 | recon_comp=AlCrFeCuNi1.2 | orig_HV=407 | recon_HV=407 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+83. orig_line=245 | recon_line=106 | orig_comp=AlCrCuFeNi | recon_comp=FeNiCrCuAl | orig_HV=342 | recon_HV=342 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+84. orig_line=251 | recon_line=367 | orig_comp=AlLiMg0.5ScTi1.5 | recon_comp=Al20Li20Mg10Sc20Ti30 | orig_HV=591 | recon_HV=591 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+85. orig_line=282 | recon_line=186 | orig_comp=FeMoNiTiVZr | recon_comp=MoTiVFeNiZr | orig_HV=740 | recon_HV=740 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+86. orig_line=341 | recon_line=190 | orig_comp=CoCrCuFeNiTiVZr | recon_comp=CuTiVFeNiZrCoCr | orig_HV=680 | recon_HV=680 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+87. orig_line=342 | recon_line=192 | orig_comp=CoCrFeMoNiTiVZr | recon_comp=MoTiVFeNiZrCoCr | orig_HV=850 | recon_HV=850 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+88. orig_line=343 | recon_line=187 | orig_comp=CoCuFeNiTiVZr | recon_comp=CuTiVFeNiZrCo | orig_HV=630 | recon_HV=630 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+89. orig_line=350 | recon_line=594 | orig_comp=CoFeMoNi1.2V | recon_comp=CoFeNi1.2VMo | orig_HV=602 | recon_HV=602 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+90. orig_line=355 | recon_line=189 | orig_comp=CoFeMoNiTiVZr | recon_comp=MoTiVFeNiZrCo | orig_HV=790 | recon_HV=790 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+91. orig_line=356 | recon_line=184 | orig_comp=CuFeNiTiVZr | recon_comp=CuTiVFeNiZr | orig_HV=590 | recon_HV=590 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+92. orig_line=361 | recon_line=185 | orig_comp=AlFeNiTiVZr | recon_comp=AlTiVFeNiZr | orig_HV=800 | recon_HV=800 | abs_delta_HV=0 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+93. orig_line=344 | recon_line=588 | orig_comp=CoFeNiV | recon_comp=CoFeNiV | orig_HV=238 | recon_HV=238.07 | abs_delta_HV=0.07 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+94. orig_line=265 | recon_line=412 | orig_comp=Al0.25MoNbTiV | recon_comp=Al0.25NbTiMoV | orig_HV=460 | recon_HV=460.1 | abs_delta_HV=0.1 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y,epsilon
+95. orig_line=25 | recon_line=58 | orig_comp=Al0.375CoCrFeNi | recon_comp=Al0.375CoCrFeNi | orig_HV=131 | recon_HV=130.8 | abs_delta_HV=0.2 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+96. orig_line=135 | recon_line=255 | orig_comp=AlCrFeNiMo0.8 | recon_comp=AlCrFeNiMo0.8 | orig_HV=854 | recon_HV=853.8 | abs_delta_HV=0.2 | matched_on=normalized relative composition + closest HV | comparable_fields=sigma_y,epsilon
+97. orig_line=220 | recon_line=309 | orig_comp=AlCoCuFeNi | recon_comp=FeCoNiCuAl | orig_HV=536 | recon_HV=536.2 | abs_delta_HV=0.2 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+98. orig_line=354 | recon_line=598 | orig_comp=CoFeMoNi2V | recon_comp=CoFeNi2VMo | orig_HV=382 | recon_HV=382.27 | abs_delta_HV=0.27 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+99. orig_line=345 | recon_line=589 | orig_comp=CoFeMo0.2NiV | recon_comp=CoFeNiVMo0.2 | orig_HV=267 | recon_HV=267.28 | abs_delta_HV=0.28 | matched_on=normalized relative composition + closest HV | comparable_fields=none
+100. orig_line=48 | recon_line=74 | orig_comp=Al1.5CoCrFeNi | recon_comp=Al1.5CoCrFeNi | orig_HV=517 | recon_HV=517.3 | abs_delta_HV=0.3 | matched_on=normalized relative composition + closest HV | comparable_fields=none

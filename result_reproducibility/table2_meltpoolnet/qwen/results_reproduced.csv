@@ -1,0 +1,8 @@
+field,TP,FP,FN,precision_pct,recall_pct,f1_pct
+beam D,79,21,0,79.00,100.00,88.27
+Hatch spacing,73,0,0,100.00,100.00,100.00
+E (J/mm),100,0,0,100.00,100.00,100.00
+depth of meltpool,59,23,18,71.95,76.62,74.21
+d/w,45,37,18,54.88,71.43,62.07
+melting_T_MAE_K,,,,,,9.9714
+melting_T_MAE_n_pairs,,,,,,70

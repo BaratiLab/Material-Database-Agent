@@ -1,0 +1,348 @@
+original_row,reconstructed_row,match_basis,original_material,reconstructed_material,original_material_canonical,reconstructed_material_canonical,material_match_after_normalization,power_norm,velocity_norm,layer_thickness_norm,original_paper_id,reconstructed_paper_id,original_full_key_group_size,reconstructed_full_key_group_size,original_fallback_key_group_size,reconstructed_fallback_key_group_size
+1,1,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,280,1200,30,1,1/file1,3,3,3,3
+2,2,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,280,400,30,1,1/file1,1,1,1,1
+3,3,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,280,800,30,1,1/file1,1,1,1,1
+4,4,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,280,1000,30,1,1/file1,1,1,1,1
+5,5,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,280,1500,30,1,1/file1,1,1,1,1
+6,6,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,370,1200,30,1,1/file1,1,1,1,1
+7,7,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,325,1200,30,1,1/file1,1,1,1,1
+8,8,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,100,1200,30,1,1/file1,1,1,2,2
+9,9,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,165,1200,30,1,1/file1,1,1,1,1
+10,10,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,280,1200,30,1,1/file1,3,3,3,3
+11,11,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,280,1200,30,1,1/file1,3,3,3,3
+12,12,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,370,1000,30,1,1/file1,1,1,2,1
+13,267,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,50,500,30,2,2/file2,1,1,2,1
+14,268,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,50,750,30,2,2/file2,1,1,1,1
+15,269,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,50,1000,30,2,2/file2,1,1,2,1
+16,270,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,50,1200,30,2,2/file2,1,1,1,1
+17,271,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,100,500,30,2,2/file2,1,1,2,2
+18,272,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,100,750,30,2,2/file2,1,1,1,1
+19,273,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,100,1000,30,2,2/file2,1,1,2,2
+20,274,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,100,1200,30,2,2/file2,1,1,2,2
+21,275,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,150,500,30,2,2/file2,1,1,2,1
+22,276,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,150,750,30,2,2/file2,1,1,1,1
+23,277,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,150,1000,30,2,2/file2,1,1,1,1
+24,278,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,150,1200,30,2,2/file2,1,1,2,1
+25,279,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,195,500,30,2,2/file2,1,1,1,1
+26,280,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,195,750,30,2,2/file2,1,1,1,1
+27,281,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,195,1000,30,2,2/file2,1,1,1,1
+28,282,material_power_velocity_layer_paper_id,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,195,1200,30,2,2/file2,1,1,1,1
+29,450,material_power_velocity_layer_paper_id,AlSi10Mg,AlSi10Mg aluminum alloy,alsi10mg,alsi10mg,yes,100,150,60,3,3/file3,1,1,1,1
+30,451,material_power_velocity_layer_paper_id,AlSi10Mg,AlSi10Mg aluminum alloy,alsi10mg,alsi10mg,yes,100,200,60,3,3/file3,1,1,1,1
+31,452,material_power_velocity_layer_paper_id,AlSi10Mg,AlSi10Mg aluminum alloy,alsi10mg,alsi10mg,yes,100,250,60,3,3/file3,1,1,1,1
+32,453,material_power_velocity_layer_paper_id,AlSi10Mg,AlSi10Mg aluminum alloy,alsi10mg,alsi10mg,yes,100,300,60,3,3/file3,1,1,1,1
+33,454,material_power_velocity_layer_paper_id,AlSi10Mg,AlSi10Mg aluminum alloy,alsi10mg,alsi10mg,yes,100,350,60,3,3/file3,1,1,1,1
+34,455,material_power_velocity_layer_paper_id,AlSi10Mg,AlSi10Mg aluminum alloy,alsi10mg,alsi10mg,yes,100,400,60,3,3/file3,1,1,1,1
+40,615,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,169,875,20,5,5/file5,1,1,1,1
+41,616,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,195,875,20,5,5/file5,1,1,1,1
+42,617,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,182,875,20,5,5/file5,2,2,2,2
+44,619,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,195,800,20,5,5/file5,3,3,4,4
+45,618,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,182,725,20,5,5/file5,1,2,1,2
+46,621,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,182,800,20,5,5/file5,2,3,2,3
+47,623,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,195,725,20,5,5/file5,1,1,1,1
+48,622,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,182,800,20,5,5/file5,2,3,2,3
+49,625,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,182,875,20,5,5/file5,2,2,2,2
+50,626,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,169,725,20,5,5/file5,1,1,1,1
+51,627,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,169,800,20,5,5/file5,2,2,2,2
+52,628,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,169,800,20,5,5/file5,2,2,2,2
+53,629,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,195,800,20,5,5/file5,3,3,4,4
+54,630,material_power_velocity_layer_paper_id,IN625,Nickel alloy 625 (Inconel 625),in625,in625,yes,195,800,20,5,5/file5,3,3,4,4
+55,631,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,160,2800,40,6,6/file6,6,6,6,6
+56,632,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,160,2800,40,6,6/file6,6,6,6,6
+57,633,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,160,2800,40,6,6/file6,6,6,6,6
+58,634,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,160,2800,40,6,6/file6,6,6,6,6
+59,635,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,160,2800,40,6,6/file6,6,6,6,6
+60,636,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,160,2800,40,6,6/file6,6,6,6,6
+61,637,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,225,1940,40,6,6/file6,7,7,7,7
+62,638,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,225,1940,40,6,6/file6,7,7,7,7
+63,639,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,225,1940,40,6,6/file6,7,7,7,7
+64,640,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,225,1940,40,6,6/file6,7,7,7,7
+65,641,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,225,1940,40,6,6/file6,7,7,7,7
+66,642,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,225,1940,40,6,6/file6,7,7,7,7
+67,643,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,225,1940,40,6,6/file6,7,7,7,7
+68,644,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1680,40,6,6/file6,7,7,7,7
+69,645,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1680,40,6,6/file6,7,7,7,7
+70,646,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1680,40,6,6/file6,7,7,7,7
+71,647,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1680,40,6,6/file6,7,7,7,7
+72,648,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1680,40,6,6/file6,7,7,7,7
+73,649,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1680,40,6,6/file6,7,7,7,7
+74,650,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1680,40,6,6/file6,7,7,7,7
+75,651,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1180,40,6,6/file6,7,7,7,7
+76,652,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1180,40,6,6/file6,7,7,7,7
+77,653,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1180,40,6,6/file6,7,7,7,7
+78,654,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1180,40,6,6/file6,7,7,7,7
+79,655,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1180,40,6,6/file6,7,7,7,7
+80,656,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1180,40,6,6/file6,7,7,7,7
+81,657,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,1180,40,6,6/file6,7,7,7,7
+82,658,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,345,1060,40,6,6/file6,7,7,7,7
+83,659,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,345,1060,40,6,6/file6,7,7,7,7
+84,660,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,345,1060,40,6,6/file6,7,7,7,7
+85,661,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,345,1060,40,6,6/file6,7,7,7,7
+86,662,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,345,1060,40,6,6/file6,7,7,7,7
+87,663,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,345,1060,40,6,6/file6,7,7,7,7
+88,664,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,345,1060,40,6,6/file6,7,7,7,7
+89,665,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,800,40,6,6/file6,6,6,6,6
+90,666,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,800,40,6,6/file6,6,6,6,6
+91,667,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,800,40,6,6/file6,6,6,6,6
+92,668,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,800,40,6,6/file6,6,6,6,6
+93,669,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,800,40,6,6/file6,6,6,6,6
+94,670,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,350,800,40,6,6/file6,6,6,6,6
+95,671,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,340,560,40,6,6/file6,5,5,5,5
+96,672,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,340,560,40,6,6/file6,5,5,5,5
+97,673,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,340,560,40,6,6/file6,5,5,5,5
+98,674,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,340,560,40,6,6/file6,5,5,5,5
+99,675,material_power_velocity_layer_paper_id,IN625,IN625,in625,in625,yes,340,560,40,6,6/file6,5,5,5,5
+100,676,material_power_velocity_layer_paper_id,TiC/Inconel 718,TiC/Inconel 718 composite powder (TiC:Inconel 718 = 0.25:0.75 by weight),in718,in718,yes,75,100,50,7,7/file7,1,1,3,1
+101,677,material_power_velocity_layer_paper_id,TiC/Inconel 718,TiC/Inconel 718 composite powder (TiC:Inconel 718 = 0.25:0.75 by weight),in718,in718,yes,100,100,50,7,7/file7,1,1,3,1
+102,678,material_power_velocity_layer_paper_id,TiC/Inconel 718,TiC/Inconel 718 composite powder (TiC:Inconel 718 = 0.25:0.75 by weight),in718,in718,yes,125,100,50,7,7/file7,2,1,4,1
+103,679,material_power_velocity_layer_paper_id,TiC/Inconel 718,TiC/Inconel 718 composite powder (TiC:Inconel 718 = 0.25:0.75 by weight),in718,in718,yes,150,100,50,7,7/file7,1,1,4,1
+104,680,material_power_velocity_layer_paper_id,TiC/Inconel 718,TiC/Inconel 718 composite powder (TiC:Inconel 718 = 0.25:0.75 by weight),in718,in718,yes,125,50,50,7,7/file7,1,1,1,1
+106,681,material_power_velocity_layer_paper_id,TiC/Inconel 718,TiC/Inconel 718 composite powder (TiC:Inconel 718 = 0.25:0.75 by weight),in718,in718,yes,125,200,50,7,7/file7,1,1,2,1
+107,682,material_power_velocity_layer_paper_id,TiC/Inconel 718,TiC/Inconel 718 composite powder (TiC:Inconel 718 = 0.25:0.75 by weight),in718,in718,yes,125,300,50,7,7/file7,1,1,2,1
+109,489,power_velocity_layer_only,Hastelloy X,Inconel 718 powder,hastelloyx,in718,no,150,700,20,8,S0168-874X(17)30520-6,1,1,1,1
+110,481,power_velocity_layer_only,Hastelloy X,Hastelloy X,hastelloyx,hastelloyx,yes,150,1000,20,8,file31,1,1,2,1
+111,483,power_velocity_layer_only,Hastelloy X,Hastelloy X,hastelloyx,hastelloyx,yes,200,800,20,8,file31,1,1,2,1
+113,484,power_velocity_layer_only,Hastelloy X,Hastelloy X,hastelloyx,hastelloyx,yes,200,1300,20,8,file31,1,1,2,1
+114,482,power_velocity_layer_only,Hastelloy X,Hastelloy X,hastelloyx,hastelloyx,yes,250,1000,20,8,file31,1,1,2,1
+117,494,power_velocity_layer_only,Hastelloy X,Inconel 718 powder,hastelloyx,in718,no,300,1200,20,8,S0168-874X(17)30520-6,1,1,1,1
+124,551,power_velocity_layer_only,Hastelloy X,IN718 and MS1,hastelloyx,in718,no,200,1000,40,8,file37,1,2,2,2
+126,555,power_velocity_layer_only,Hastelloy X,IN718 and MS1,hastelloyx,in718,no,250,1000,40,8,file37,1,2,3,2
+127,580,power_velocity_layer_only,Hastelloy X,IN718 and MS1,hastelloyx,in718,no,250,1200,40,8,file37,1,1,2,1
+130,34,power_velocity_layer_only,Hastelloy X,Inconel 718 (IN 718),hastelloyx,in718,no,300,1500,40,8,,1,1,2,1
+145,703,material_power_velocity_layer_paper_id,IN718,Inconel 718,in718,in718,yes,150,200,70,9,9/file9,1,1,1,1
+167,15,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,200,1600,,10,10/file10,1,1,2,1
+168,16,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,200,2000,,10,10/file10,1,1,2,1
+169,17,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,200,2600,,10,10/file10,1,1,2,1
+170,18,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,250,1600,,10,10/file10,1,1,2,2
+171,19,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,250,2000,,10,10/file10,1,1,2,1
+172,20,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,250,2600,,10,10/file10,1,1,2,1
+173,21,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,300,1600,,10,10/file10,1,1,2,1
+174,22,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,300,2000,,10,10/file10,1,1,3,2
+175,23,material_power_velocity_layer_paper_id,Invar36,Invar 36 (Fe-36Ni),invar36,invar36,yes,300,2600,,10,10/file10,1,1,2,1
+176,24,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,75,800,40,11,,1,2,1,2
+177,25,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,75,1500,40,11,,1,1,1,1
+178,26,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,75,2200,40,11,,1,1,1,1
+179,27,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,150,800,40,11,,1,1,2,1
+180,28,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,150,1500,40,11,,1,1,1,1
+181,29,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,150,2200,40,11,,1,1,1,1
+182,30,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,225,800,40,11,,1,2,1,2
+183,31,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,225,1500,40,11,,1,1,1,1
+184,32,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,225,2200,40,11,,1,1,1,1
+185,33,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,300,800,40,11,,1,1,1,1
+187,35,power_velocity_layer_only,IN718,Inconel 718 (IN 718),in718,in718,yes,300,2200,40,11,,1,1,2,1
+188,67,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,208,800,100,12,,1,1,1,1
+189,68,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,312,1200,100,12,,1,1,1,1
+190,69,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,416,1600,100,12,,1,1,1,1
+191,70,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,520,2000,100,12,,1,1,1,1
+192,61,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,104,200,100,12,,1,1,1,1
+193,62,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,208,400,100,12,,1,1,1,1
+194,63,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,312,600,100,12,,1,1,1,1
+195,64,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,416,800,100,12,,1,1,1,1
+196,65,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,520,1000,100,12,,1,1,1,1
+197,56,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,104,100,100,12,,1,1,1,1
+198,57,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,208,200,100,12,,1,1,1,1
+199,58,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,312,300,100,12,,1,1,1,1
+200,59,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,416,400,100,12,,1,1,1,1
+201,60,power_velocity_layer_only,AlSi10Mg,AlSi10Mg,alsi10mg,alsi10mg,yes,520,500,100,12,,1,1,1,1
+222,93,power_velocity_layer_only,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,240,400,100,13,file13,4,1,4,1
+242,92,power_velocity_layer_only,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,300,700,100,13,file13,4,1,4,1
+262,94,power_velocity_layer_only,Ti-6Al-4V,Ti-6Al-4V,ti6al4v,ti6al4v,yes,360,1000,100,13,file13,4,1,4,1
+266,97,power_velocity_layer_only,SS316L,SS316L and IN738LC,ss316l,ss316l,yes,200,850,30,14,,1,1,1,1
+267,98,power_velocity_layer_only,SS316L,SS316L and IN738LC,ss316l,ss316l,yes,200,1000,30,14,,1,2,2,2
+268,99,power_velocity_layer_only,SS316L,SS316L and IN738LC,ss316l,ss316l,yes,200,1150,30,14,,1,1,1,1
+269,100,power_velocity_layer_only,SS316L,SS316L and IN738LC,ss316l,ss316l,yes,200,1300,30,14,,1,1,1,1
+270,101,power_velocity_layer_only,SS316L,SS316L and IN738LC,ss316l,ss316l,yes,200,1450,30,14,,1,1,1,1
+271,102,power_velocity_layer_only,SS316L,SS316L and IN738LC,ss316l,ss316l,yes,200,1600,30,14,,1,1,1,1
+272,103,power_velocity_layer_only,IN738LC,SS316L and IN738LC,in738lc,ss316l,no,200,600,30,14,,1,2,3,2
+273,104,power_velocity_layer_only,IN738LC,SS316L and IN738LC,in738lc,ss316l,no,200,750,30,14,,1,1,2,1
+274,105,power_velocity_layer_only,IN738LC,SS316L and IN738LC,in738lc,ss316l,no,200,900,30,14,,1,2,2,2
+275,106,power_velocity_layer_only,IN738LC,SS316L and IN738LC,in738lc,ss316l,no,200,1050,30,14,,1,1,1,1
+276,107,power_velocity_layer_only,IN738LC,SS316L and IN738LC,in738lc,ss316l,no,200,1200,30,14,,1,1,2,1
+326,123,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,150,75,16,,1,1,1,1
+327,124,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,200,75,16,,1,1,1,1
+328,125,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,300,75,16,,1,1,1,1
+329,126,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,300,75,16,,1,1,1,1
+330,127,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,400,75,16,,1,1,1,1
+331,128,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,600,75,16,,1,1,1,1
+354,145,power_velocity_layer_only,SS316L,Stainless steel 316L (powder on SS316L substrate),ss316l,ss316l,yes,50,220,50,19,,1,1,2,1
+374,596,power_velocity_layer_only,SS316L,304L stainless steel powder,ss316l,304l,no,120,250,50,19,file39,1,1,1,1
+382,597,power_velocity_layer_only,SS316L,304L stainless steel powder,ss316l,304l,no,150,250,50,19,file39,1,1,2,1
+421,143,power_velocity_layer_only,SS316L,Stainless steel 316L (powder on SS316L substrate),ss316l,ss316l,yes,375,220,50,19,,1,1,3,1
+427,283,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,400,30,20,,1,1,1,1
+428,289,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,500,30,20,,1,1,2,2
+429,295,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,600,30,20,,1,1,1,1
+430,301,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,700,30,20,,1,1,1,1
+431,307,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,800,30,20,,1,1,1,1
+432,313,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,900,30,20,,1,1,1,1
+433,319,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,1000,30,20,,1,1,2,2
+434,325,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,100,1100,30,20,,1,1,1,1
+435,284,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,400,30,20,,1,1,2,1
+436,290,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,500,30,20,,1,1,7,1
+437,296,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,600,30,20,,1,2,3,2
+438,302,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,700,30,20,,1,1,2,1
+439,308,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,800,30,20,,1,1,2,1
+440,314,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,900,30,20,,1,2,2,2
+441,320,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,1000,30,20,,1,2,2,2
+442,326,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,200,1100,30,20,,1,1,1,1
+443,285,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,400,30,20,,1,1,2,1
+444,291,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,500,30,20,,1,1,2,1
+445,297,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,600,30,20,,1,1,2,1
+446,303,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,700,30,20,,1,1,2,1
+447,309,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,800,30,20,,1,1,3,1
+448,315,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,900,30,20,,1,1,2,1
+449,321,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,1000,30,20,,1,1,1,1
+450,327,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,300,1100,30,20,,1,1,1,1
+451,286,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,400,30,20,,1,1,1,1
+452,292,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,500,30,20,,1,1,1,1
+453,298,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,600,30,20,,1,1,1,1
+454,304,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,700,30,20,,1,1,1,1
+455,310,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,800,30,20,,1,1,1,1
+456,316,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,900,30,20,,1,1,1,1
+457,322,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,1000,30,20,,1,1,1,1
+458,328,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,400,1100,30,20,,1,1,2,1
+459,287,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,400,30,20,,1,1,1,1
+460,293,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,500,30,20,,1,1,1,1
+461,299,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,600,30,20,,1,1,1,1
+462,305,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,700,30,20,,1,1,1,1
+463,311,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,800,30,20,,1,1,1,1
+464,317,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,900,30,20,,1,1,1,1
+465,323,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,1000,30,20,,1,1,1,1
+466,329,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,500,1100,30,20,,1,1,1,1
+467,288,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,400,30,20,,1,1,1,1
+468,294,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,500,30,20,,1,1,1,1
+469,300,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,600,30,20,,1,1,1,1
+470,306,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,700,30,20,,1,1,1,1
+471,312,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,800,30,20,,1,1,1,1
+472,318,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,900,30,20,,1,1,1,1
+473,324,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,1000,30,20,,1,1,1,1
+474,330,power_velocity_layer_only,SS316L,316L stainless steel,ss316l,ss316l,yes,600,1100,30,20,,1,1,1,1
+475,340,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,50,500,60,21,101504,1,1,1,1
+476,341,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,65,500,60,21,101504,1,1,1,1
+477,342,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,80,500,60,21,101504,1,1,1,1
+478,343,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,100,500,60,21,101504,1,1,1,1
+479,344,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,120,500,60,21,101504,1,1,1,1
+480,345,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,150,500,60,21,101504,1,1,1,1
+481,346,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,200,500,60,21,101504,1,1,1,1
+482,348,power_velocity_layer_only,IN625,Nickel alloy 625 (IN625),in625,in625,yes,300,500,60,21,101504,1,1,1,1
+498,364,power_velocity_layer_only,SS316L,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ss316l,ss316l,yes,100,800,,23,Additive Manufacturing 32 (2020) 101084,1,2,1,2
+499,372,power_velocity_layer_only,SS316L,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ss316l,ss316l,yes,200,800,,23,Additive Manufacturing 32 (2020) 101084,1,4,1,5
+500,380,power_velocity_layer_only,SS316L,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ss316l,ss316l,yes,300,800,,23,Additive Manufacturing 32 (2020) 101084,1,2,1,2
+501,366,power_velocity_layer_only,SS316L,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ss316l,ss316l,yes,400,800,,23,Additive Manufacturing 32 (2020) 101084,1,6,1,6
+502,389,power_velocity_layer_only,IN718,IN718 (Inconel 718) powder on IN718 substrate,in718,in718,yes,142,960,60,24,file24,1,1,1,1
+503,391,power_velocity_layer_only,IN718,IN718 (Inconel 718) powder on IN718 substrate,in718,in718,yes,250,1100,60,24,file24,1,5,1,5
+504,393,power_velocity_layer_only,IN718,IN718 (Inconel 718) powder on IN718 substrate,in718,in718,yes,285,960,60,24,file24,1,1,1,1
+505,395,power_velocity_layer_only,IN718,IN718 (Inconel 718) powder on IN718 substrate,in718,in718,yes,250,660,60,24,file24,1,1,1,1
+506,397,power_velocity_layer_only,IN718,IN718 (Inconel 718) powder on IN718 substrate,in718,in718,yes,285,600,60,24,file24,1,1,1,1
+509,402,power_velocity_layer_only,SS17-4PH,17-4PH stainless steel,ss174ph,174ph,no,100,600,50,25,file25,1,1,1,1
+537,403,power_velocity_layer_only,SS17-4PH,17-4PH stainless steel,ss174ph,174ph,no,300,1800,50,25,file25,1,1,3,1
+543,404,power_velocity_layer_only,SS17-4PH,17-4PH stainless steel,ss174ph,174ph,no,900,500,50,25,file25,1,1,1,1
+544,405,power_velocity_layer_only,SS17-4PH,17-4PH stainless steel,ss174ph,174ph,no,900,600,50,25,file25,1,1,1,1
+572,406,power_velocity_layer_only,SS17-4PH,17-4PH stainless steel,ss174ph,174ph,no,2700,1800,50,25,file25,1,1,1,1
+584,426,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,600,20,28,file28,1,1,1,1
+585,427,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,700,20,28,file28,1,1,1,1
+586,428,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,800,20,28,file28,1,1,1,1
+587,429,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,900,20,28,file28,1,1,1,1
+588,430,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,1000,20,28,file28,1,1,1,1
+589,431,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,1100,20,28,file28,1,1,1,1
+590,432,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,1200,20,28,file28,1,1,1,1
+591,433,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,170,1300,20,28,file28,1,1,1,1
+592,434,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,600,20,28,file28,1,1,1,1
+593,435,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,700,20,28,file28,1,1,1,1
+594,436,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,800,20,28,file28,1,1,4,4
+595,437,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,900,20,28,file28,1,1,1,1
+596,438,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,1000,20,28,file28,1,1,1,1
+597,439,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,1100,20,28,file28,1,1,1,1
+598,440,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,1200,20,28,file28,1,1,1,1
+599,441,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,195,1300,20,28,file28,1,1,1,1
+600,442,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,600,20,28,file28,1,1,1,1
+601,443,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,700,20,28,file28,1,1,1,1
+602,444,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,800,20,28,file28,1,1,1,1
+603,445,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,900,20,28,file28,1,1,1,1
+604,446,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,1000,20,28,file28,1,1,1,1
+605,447,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,1100,20,28,file28,1,1,1,1
+606,448,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,1200,20,28,file28,1,1,1,1
+607,449,power_velocity_layer_only,SS17-4PH,"Stainless Steel 17-4PH powder (single-layer, on mild carbon steel substrate)",ss174ph,174ph,no,220,1300,20,28,file28,1,1,1,1
+611,476,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,102,600,30,30,101308,1,1,1,1
+612,471,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,102,800,30,30,101308,1,1,1,1
+613,466,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,102,1000,30,30,101308,1,1,1,1
+614,461,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,102,1200,30,30,101308,1,1,1,1
+615,456,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,102,1400,30,30,101308,1,1,1,1
+616,477,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,128,600,30,30,101308,1,1,1,1
+617,472,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,128,800,30,30,101308,1,1,1,1
+618,467,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,128,1000,30,30,101308,1,1,1,1
+619,462,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,128,1200,30,30,101308,1,1,1,1
+620,457,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,128,1400,30,30,101308,1,1,1,1
+621,478,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,153,600,30,30,101308,1,1,1,1
+622,473,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,153,800,30,30,101308,1,1,1,1
+623,468,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,153,1000,30,30,101308,1,1,1,1
+624,463,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,153,1200,30,30,101308,1,1,1,1
+625,458,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,153,1400,30,30,101308,1,1,1,1
+626,479,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,179,600,30,30,101308,1,1,1,1
+627,474,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,179,800,30,30,101308,1,1,1,1
+628,469,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,179,1000,30,30,101308,1,1,1,1
+629,464,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,179,1200,30,30,101308,1,1,1,1
+630,459,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,179,1400,30,30,101308,1,1,1,1
+631,480,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,204,600,30,30,101308,1,1,1,1
+632,475,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,204,800,30,30,101308,1,1,1,1
+633,470,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,204,1000,30,30,101308,1,1,1,1
+634,465,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,204,1200,30,30,101308,1,1,1,1
+635,460,power_velocity_layer_only,Al-2.5Fe,Al-2.5Fe (mass%) near-eutectic binary alloy,al25fe,al25feneareutecticbinary,no,204,1400,30,30,101308,1,1,1,1
+658,683,power_velocity_layer_only,Ti-6Al-4V,Hastelloy X,ti6al4v,hastelloyx,no,150,600,,34,8/file8,1,1,1,1
+667,687,power_velocity_layer_only,Ti-6Al-4V,Hastelloy X,ti6al4v,hastelloyx,no,150,700,,34,8/file8,1,1,1,1
+683,384,power_velocity_layer_only,Ti-6Al-4V,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ti6al4v,ss316l,no,200,1000,,34,Additive Manufacturing 32 (2020) 101084,1,2,1,3
+684,386,power_velocity_layer_only,Ti-6Al-4V,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ti6al4v,ss316l,no,300,1000,,34,Additive Manufacturing 32 (2020) 101084,1,2,2,2
+686,370,power_velocity_layer_only,Ti-6Al-4V,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ti6al4v,ss316l,no,400,1000,,34,Additive Manufacturing 32 (2020) 101084,1,2,1,2
+688,89,power_velocity_layer_only,Ti-6Al-4V,AlSi10Mg,ti6al4v,alsi10mg,no,520,1000,,34,,1,1,1,1
+695,382,power_velocity_layer_only,Ti-6Al-4V,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",ti6al4v,ss316l,no,250,1200,,34,Additive Manufacturing 32 (2020) 101084,1,2,1,3
+696,686,power_velocity_layer_only,Ti-6Al-4V,Hastelloy X,ti6al4v,hastelloyx,no,300,1200,,34,8/file8,1,1,2,1
+703,200,power_velocity_layer_only,Ti-6Al-4V,,ti6al4v,,no,180,400,,34,,1,1,1,1
+729,514,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,400,50,100,36,file36,1,1,1,1
+730,515,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,400,100,100,36,file36,1,1,1,1
+731,516,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,400,150,100,36,file36,1,1,1,1
+732,517,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,400,200,100,36,file36,1,1,1,1
+733,519,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,400,300,100,36,file36,1,1,1,1
+734,521,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,400,400,100,36,file36,1,1,1,1
+735,523,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,400,500,100,36,file36,1,1,1,1
+736,524,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,500,50,100,36,file36,1,1,1,1
+737,525,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,500,100,100,36,file36,1,1,1,1
+738,526,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,500,150,100,36,file36,1,1,1,1
+739,527,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,500,200,100,36,file36,1,1,1,1
+740,529,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,500,300,100,36,file36,1,1,1,1
+741,531,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,500,400,100,36,file36,1,1,1,1
+742,533,power_velocity_layer_only,HCP Cu,Pure Cu (HCP Cu powder on Cu substrate),hcpcu,purecu,no,500,500,100,36,file36,1,1,1,1
+748,548,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,200,100,40,37,file37,1,2,1,2
+749,549,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,200,250,40,37,file37,1,3,2,3
+750,550,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,200,500,40,37,file37,1,2,1,2
+751,563,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,200,1000,40,37,file37,1,2,2,2
+752,552,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,250,100,40,37,file37,1,2,1,2
+753,553,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,250,250,40,37,file37,1,2,1,2
+754,554,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,250,500,40,37,file37,1,3,2,3
+755,567,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,250,1000,40,37,file37,1,2,3,2
+756,556,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,250,1500,40,37,file37,1,2,1,2
+758,557,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,300,100,40,37,file37,1,2,1,2
+759,558,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,300,150,40,37,file37,1,2,1,2
+760,559,power_velocity_layer_only,IN718,IN718 and MS1,in718,in718,yes,300,250,40,37,file37,1,2,1,2
+761,572,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,200,170,40,37,file37,1,1,1,1
+762,561,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,200,250,40,37,file37,1,3,2,3
+763,574,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,200,385,40,37,file37,1,1,1,1
+764,575,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,200,750,40,37,file37,1,1,1,1
+765,576,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,250,270,40,37,file37,1,1,1,1
+766,566,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,250,500,40,37,file37,1,3,2,3
+767,578,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,250,600,40,37,file37,1,1,1,1
+768,579,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,250,750,40,37,file37,1,1,1,1
+770,581,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,300,550,40,37,file37,1,1,1,1
+771,582,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,300,730,40,37,file37,1,1,1,1
+772,583,power_velocity_layer_only,MS1-,IN718 and MS1,ms1,in718,no,300,1100,40,37,file37,1,1,1,1
+829,339,power_velocity_layer_only,CMSX-4,Nickel alloy 625 (IN625),cmsx4,in625,no,300,500,,43,101504,1,1,2,1
+837,387,power_velocity_layer_only,CMSX-4,"Multi-material study: 316L stainless steel, Nickel 400, Al6061, Ti-64",cmsx4,ss316l,no,300,1000,,43,Additive Manufacturing 32 (2020) 101084,1,2,2,2
+854,694,power_velocity_layer_only,Ti-6Al-4V,Hastelloy X,ti6al4v,hastelloyx,no,300,2000,,45,8/file8,1,1,3,2
+868,112,power_velocity_layer_only,Ti-6Al-4V,Ti6Al4V powder,ti6al4v,ti6al4v,yes,80,200,30,47,file15,1,1,1,1
+989,693,power_velocity_layer_only,Invar36,Hastelloy X,invar36,hastelloyx,no,250,1600,,55,8/file8,1,1,2,2
+1176,536,power_velocity_layer_only,Tungsten,Pure Cu (HCP Cu powder on Cu substrate),tungsten,purecu,no,500,300,,60,file36,1,1,1,1
+1177,537,power_velocity_layer_only,Tungsten,Pure Cu (HCP Cu powder on Cu substrate),tungsten,purecu,no,500,400,,60,file36,1,1,1,1
+1178,538,power_velocity_layer_only,Tungsten,Pure Cu (HCP Cu powder on Cu substrate),tungsten,purecu,no,500,500,,60,file36,1,1,1,1
+1185,509,power_velocity_layer_only,SS316L,SS316 stainless steel,ss316l,ss316,no,100,1.67,,62,file35,1,1,1,1
+1186,510,power_velocity_layer_only,SS316L,SS316 stainless steel,ss316l,ss316,no,150,1.67,,62,file35,1,1,1,1
+1187,511,power_velocity_layer_only,SS316L,SS316 stainless steel,ss316l,ss316,no,200,1.67,,62,file35,3,1,3,1
+1189,513,power_velocity_layer_only,SS316L,SS316 stainless steel,ss316l,ss316,no,200,5,,62,file35,1,1,2,1
+1605,144,power_velocity_layer_only,SS316L,Stainless steel 316L (powder on SS316L substrate),ss316l,ss316l,yes,147.5,220,50,80,,1,1,1,1

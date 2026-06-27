@@ -9,6 +9,7 @@ to corresponding folders with images enabled.
 import os
 import subprocess
 import logging
+import re
 import shutil
 from pathlib import Path
 from typing import List, Optional
@@ -64,6 +65,14 @@ def _resolve_marker_chunk_convert() -> Optional[str]:
         return str(marker_venv)
 
     return None
+
+
+def _shell_safe_name(name: str) -> str:
+    """
+    Replace shell-sensitive characters so marker's shell wrapper can process paths safely.
+    """
+    safe_name = re.sub(r"[^A-Za-z0-9._-]+", "_", name).strip("._")
+    return safe_name or "document"
 
 
 def convert_single_pdf_to_markdown(
@@ -144,10 +153,11 @@ def convert_single_pdf_to_markdown(
     # But since we want one file at a time, we'll use marker_single instead if available
     # For now, let's use marker_chunk_convert on the folder containing just this file
     
-    # Create a temporary input folder for just this PDF
-    temp_input_dir = output_dir / f"temp_input_{pdf_path.stem}"
+    # Create a temporary input folder and staged filename that avoid shell-sensitive characters.
+    safe_stem = _shell_safe_name(pdf_path.stem)
+    temp_input_dir = output_dir / f"temp_input_{safe_stem}"
     temp_input_dir.mkdir(exist_ok=True)
-    temp_pdf = temp_input_dir / pdf_path.name
+    temp_pdf = temp_input_dir / f"{safe_stem}{pdf_path.suffix.lower()}"
     
     # Copy PDF to temp folder
     shutil.copy2(pdf_path, temp_pdf)

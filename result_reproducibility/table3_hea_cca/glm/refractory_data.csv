@@ -1,0 +1,596 @@
+Composition                               , Type_of_phases                                              , rho  , HV    , Type_of_tests, sigma_Y, sigma_max, epsilon, E      , Folder
+CoFeNi                                    , FCC                                                         ,      ,       , C            ,        ,          ,        ,        ,      4
+Al0.25CoFeNi                              , FCC                                                         ,      ,  200  , C            ,  158.4 ,          ,        ,        ,      4
+Al0.5CoFeNi                               , FCC+BCC                                                     ,      ,  270  , C            ,  280   ,          ,        ,        ,      4
+Al0.75CoFeNi                              , FCC+BCC                                                     ,      ,  340  , C            ,  500   ,   2787   ,   31.2 ,        ,      4
+AlCoFeNi                                  , BCC                                                         ,      ,  450  , C            ,  967.4 ,          ,    7.9 ,        ,      4
+CoFeNiSi0.25                              , FCC                                                         ,      ,  220  , C            ,  192.0 ,          ,        ,        ,      4
+CoFeNiSi0.5                               , FCC+Ni3Si                                                   ,      ,  390  , C            ,  500   ,          ,        ,        ,      4
+CoFeNiSi0.75                              , FCC+Ni3Si                                                   ,      ,  568  , C            , 1297.1 ,          ,        ,        ,      4
+FeNiCoCrMn                                , FCC                                                         ,      ,       , T            ,  192   ,    480   ,   50   , 202    ,      5
+FeNiCoCr                                  , FCC                                                         ,      ,       , T            ,  274   ,    560   ,   50   , 215    ,      5
+FeNiCoMn                                  , FCC                                                         ,      ,       , T            ,  175   ,    450   ,   42   , 188    ,      5
+NiCoCrMn                                  , FCC                                                         ,      ,       , T            ,  285   ,    570   ,   48   , 195    ,      5
+FeNiCo                                    , FCC                                                         ,      ,       , T            ,  216   ,    500   ,   38   , 162    ,      5
+NiCoCr                                    , FCC                                                         ,      ,       , T            ,  303   ,    680   ,   55   , 226    ,      5
+FeNiMn                                    , FCC                                                         ,      ,       , T            ,  245   ,    480   ,   32   , 181    ,      5
+NiCoMn                                    , FCC                                                         ,      ,       , T            ,  235   ,    510   ,   40   , 189    ,      5
+CoCrFeNi                                  , FCC                                                         ,      ,       , T            ,  147   ,    413   ,   48.0 ,        ,      6
+CoCrFeNiNb0.103                           , FCC+Laves                                                   ,      ,       , T            ,  317   ,    622   ,   19.2 ,        ,      6
+CoCrFeNiNb0.155                           , FCC+Laves                                                   ,      ,       , T            ,  321   ,    744   ,   23.3 ,        ,      6
+CoCrFeNiNb0.206                           , FCC+Laves                                                   ,      ,       , T            ,  402   ,    807   ,    8.6 ,        ,      6
+CoCrFeNiNb0.309                           , FCC+Laves                                                   ,      ,       , T            ,  478   ,    879   ,    3.5 ,        ,      6
+CoCrFeNiNb0.412                           , FCC+Laves                                                   ,      ,       , T            ,  637   ,   1004   ,    1.3 ,        ,      6
+CoCrFeNi                                  , FCC                                                         ,      ,  116  ,              ,        ,          ,        ,        ,      7
+Al0.25CoCrFeNi                            , FCC                                                         ,      ,  110  ,              ,        ,          ,        ,        ,      7
+Al0.375CoCrFeNi                           , FCC                                                         ,      ,  130.8,              ,        ,          ,        ,        ,      7
+Al0.5CoCrFeNi                             , FCC+BCC                                                     ,      ,  159  ,              ,        ,          ,        ,        ,      7
+Al0.75CoCrFeNi                            , FCC+BCC                                                     ,      ,  388  ,              ,        ,          ,        ,        ,      7
+Al0.875CoCrFeNi                           , BCC                                                         ,      ,  538  ,              ,        ,          ,        ,        ,      7
+AlCoCrFeNi                                , BCC+B2                                                      ,      ,  484  ,              ,        ,          ,        ,        ,      7
+Al1.25CoCrFeNi                            , BCC+B2                                                      ,      ,  487  ,              ,        ,          ,        ,        ,      7
+Al1.5CoCrFeNi                             , BCC+B2                                                      ,      ,  484  ,              ,        ,          ,        ,        ,      7
+Al2CoCrFeNi                               , BCC+B2                                                      ,      ,  509  ,              ,        ,          ,        ,        ,      7
+CoCrFeNi                                  , FCC                                                         ,      ,  113  ,              ,        ,          ,        ,        ,      7
+Al0.25CoCrFeNi                            , FCC                                                         ,      ,  113  ,              ,        ,          ,        ,        ,      7
+Al0.375CoCrFeNi                           , FCC+BCC                                                     ,      ,  196  ,              ,        ,          ,        ,        ,      7
+Al0.5CoCrFeNi                             , FCC+BCC                                                     ,      ,  209  ,              ,        ,          ,        ,        ,      7
+Al0.75CoCrFeNi                            , FCC+BCC                                                     ,      ,  280  ,              ,        ,          ,        ,        ,      7
+Al0.875CoCrFeNi                           , FCC+BCC                                                     ,      ,  361  ,              ,        ,          ,        ,        ,      7
+AlCoCrFeNi                                , FCC+BCC                                                     ,      ,  433  ,              ,        ,          ,        ,        ,      7
+Al1.25CoCrFeNi                            , BCC+B2                                                      ,      ,  499  ,              ,        ,          ,        ,        ,      7
+Al1.5CoCrFeNi                             , BCC+B2                                                      ,      ,  517.3,              ,        ,          ,        ,        ,      7
+Al2CoCrFeNi                               , BCC+B2                                                      ,      ,  512.4,              ,        ,          ,        ,        ,      7
+CoCrFeNi                                  , FCC                                                         ,      ,  325  ,              ,        ,          ,        ,        ,      7
+Al0.25CoCrFeNi                            , FCC                                                         ,      ,  346  ,              ,        ,          ,        ,        ,      7
+Al0.375CoCrFeNi                           , FCC+BCC                                                     ,      ,  360  ,              ,        ,          ,        ,        ,      7
+Al0.5CoCrFeNi                             , FCC+BCC                                                     ,      ,  368  ,              ,        ,          ,        ,        ,      7
+Al0.75CoCrFeNi                            , FCC+BCC                                                     ,      ,  434  ,              ,        ,          ,        ,        ,      7
+Al0.875CoCrFeNi                           , FCC+BCC                                                     ,      ,  497  ,              ,        ,          ,        ,        ,      7
+CoCrFeMo0.5Ni                             , FCC+σ                                                       ,      ,  220  ,              ,        ,          ,        ,        ,      8
+Al0.5CoCrFeMo0.5Ni                        , FCC+σ                                                       ,      ,  440  ,              ,        ,          ,        ,        ,      8
+Al1.0CoCrFeMo0.5Ni                        , B2+σ                                                        ,      ,  720  ,              ,        ,          ,        ,        ,      8
+Al1.5CoCrFeMo0.5Ni                        , B2+σ                                                        ,      ,  665  ,              ,        ,          ,        ,        ,      8
+Al2.0CoCrFeMo0.5Ni                        , B2+BCC                                                      ,      ,  615  ,              ,        ,          ,        ,        ,      8
+CoCrFeNiTi                                , FCC                                                         ,      ,       , C            ,        ,   2020   ,    9.0 , 134.6  ,      9
+CoCrFeNiTiAl0.5                           , BCC+BCC+Laves                                               ,      ,       , C            ,        ,   1600   ,    9.9 , 106.8  ,      9
+CoCrFeNiTiAl1.0                           , BCC+B2+Laves                                                ,      ,       , C            ,        ,   2280   ,    6.4 , 147.6  ,      9
+CoCrFeNiTiAl1.5                           , BCC+BCC                                                     ,      ,       , C            ,        ,   2110   ,    9.8 , 133.4  ,      9
+CoCrFeNiTiAl2.0                           , BCC+BCC                                                     ,      ,       , C            ,        ,   1030   ,    5.2 ,  93.5  ,      9
+Co1.5CrFeNi1.5Ti0.5                       , FCC+η                                                       ,      ,  509  ,              ,        ,          ,        ,        ,     10
+Al0.2Co1.5CrFeNi1.5Ti0.5                  , FCC                                                         ,      ,  487  ,              ,        ,          ,        ,        ,     10
+Co1.5CrFeNi1.5Ti                          , FCC+η                                                       ,      ,  654  ,              ,        ,          ,        ,        ,     10
+Al0.2Co1.5CrFeNi1.5Ti                     , FCC+η                                                       ,      ,  717  ,              ,        ,          ,        ,        ,     10
+FeNiCrCo0.3Al0.7                          , BCC(A2)+BCC(B2)+FCC                                         ,      ,  624  , C            , 2033   ,   2635   ,    8.12,        ,     11
+FeNiCrCoAl                                , BCC                                                         ,      ,       , C            , 1251   ,   2004   ,   32.7 ,        ,     11
+FeNiCrCoAl0.25                            , FCC                                                         ,      ,  110  ,              ,        ,          ,        ,        ,     11
+FeNiCrCoAl0.5                             , BCC+FCC                                                     ,      ,  159  ,              ,        ,          ,        ,        ,     11
+FeNiCrCoAl0.75                            , BCC+FCC                                                     ,      ,  388  ,              ,        ,          ,        ,        ,     11
+FeNiCrCoAl0.875                           , BCC                                                         ,      ,  538  ,              ,        ,          ,        ,        ,     11
+FeNiCrCoAl1                               , BCC                                                         ,      ,  484  ,              ,        ,          ,        ,        ,     11
+FeNiCrCoAl2                               , BCC                                                         ,      ,  509  ,              ,        ,          ,        ,        ,     11
+FeNiCrCuCo                                , FCC                                                         ,      ,  286  ,              ,        ,          ,        ,        ,     13
+FeNiCrCuAl                                , FCC+BCC                                                     ,      ,  342  ,              ,        ,          ,        ,        ,     13
+FeNiCrCuMo                                , FCC                                                         ,      ,  263  ,              ,        ,          ,        ,        ,     13
+FeNiCrCuMn                                , FCC+BCC                                                     ,      ,  296  ,              ,        ,          ,        ,        ,     13
+FeNiCrCuZr                                , BCC+compounds                                               ,      ,  566  ,              ,        ,          ,        ,        ,     13
+FeNiCrCoAl                                , BCC                                                         ,      ,  395  ,              ,        ,          ,        ,        ,     13
+FeNiCrCoAl1.5                             , BCC                                                         ,      ,  402  ,              ,        ,          ,        ,        ,     13
+FeNiCrCoAl2                               , BCC                                                         ,      ,  432  ,              ,        ,          ,        ,        ,     13
+FeNiCrCoAl2.5                             , BCC                                                         ,      ,  487  ,              ,        ,          ,        ,        ,     13
+FeNiCrCoAl3                               , BCC                                                         ,      ,  506  ,              ,        ,          ,        ,        ,     13
+AlCrFeCoNi                                , BCC+B2                                                      ,      ,       , C            , 1250.96,   2004.23,   32.7 ,        ,     14
+CrFeCoNiCuTi                              ,                                                             ,      ,       , C            , 1272   ,   1272   ,    1.6 ,        ,     14
+AlCrMnFeCoNiCuTiV                         ,                                                             ,      ,       , C            , 1862   ,   2431   ,    0.95,        ,     14
+CrFeCoNiCuTi0.5                           ,                                                             ,      ,       , C            ,  700   ,   1650   ,   21.26,        ,     14
+AlCoCrFeNi                                , BCC                                                         ,      ,       , C            , 1051   ,          ,        ,        ,     15
+AlCoCrFeNiMo0.1                           , BCC                                                         ,      ,       , C            , 1804   ,   2280   ,    9.1 ,        ,     15
+AlCoCrFeNiMo0.2                           , BCC+sigma                                                   ,      ,       , C            , 2456   ,   2953   ,    3.4 ,        ,     15
+AlCoCrFeNiMo0.3                           , BCC+sigma                                                   ,      ,       , C            , 2649   ,   3208   ,    3.3 ,        ,     15
+AlCoCrFeNiMo0.4                           , BCC+sigma                                                   ,      ,       , C            , 2670   ,   3161   ,    3.0 ,        ,     15
+AlCoCrFeNiMo0.5                           , BCC+sigma                                                   ,      ,       , C            , 2757   ,   3036   ,    2.5 ,        ,     15
+AlCoCrFeNi                                , BCC                                                         ,      ,       , C            , 1110   ,          ,        ,        ,     16
+AlCoCrFeNiSi0.2                           , BCC                                                         ,      ,       , C            , 1265   ,   2173   ,   13.76,        ,     16
+AlCoCrFeNiSi0.4                           , BCC                                                         ,      ,       , C            , 1481   ,   2444   ,   13.38,        ,     16
+AlCoCrFeNiSi0.6                           , BCC+delta                                                   ,      ,       , C            , 1834   ,   2195   ,    2.56,        ,     16
+AlCoCrFeNiSi0.8                           , BCC+delta                                                   ,      ,       , C            , 2179   ,   2664   ,    1.77,        ,     16
+AlCoCrFeNiSi1.0                           , BCC+delta                                                   ,      ,       , C            , 2411   ,   2950   ,    1.17,        ,     16
+AlCoCrFeNi                                , BCC                                                         ,      ,       , C            , 1138   ,          ,        , 125.1  ,     17
+AlCoCrFeNiC0.1                            , BCC+epsilon                                                 ,      ,       , C            ,  957   ,   2550   ,   10.52, 213.2  ,     17
+AlCoCrFeNiC0.2                            , BCC+epsilon                                                 ,      ,       , C            ,  906   ,   2386   ,    8.68, 150.9  ,     17
+AlCoCrFeNiC0.3                            , BCC+epsilon                                                 ,      ,       , C            ,  867   ,   2178   ,    7.82, 137.2  ,     17
+AlCoCrFeNiC0.4                            , BCC+epsilon                                                 ,      ,       , C            , 1056   ,   2375   ,    6.67, 156.1  ,     17
+AlCoCrFeNiC0.5                            , BCC+epsilon                                                 ,      ,       , C            , 1060   ,   2250   ,    5.6 , 180.8  ,     17
+AlCoCrFeNiC1.0                            , BCC+epsilon+graphite                                        ,      ,       , C            , 1251   ,   2166   ,    7.04,  75.1  ,     17
+AlCoCrFeNiC1.5                            , BCC+epsilon+graphite                                        ,      ,       , C            , 1255   ,   2083   ,    5.54,  72.5  ,     17
+AlCoCrFeNi                                , BCC                                                         ,      ,       , C            , 1051   ,          ,        ,        ,     19
+AlCoCrFeNiMo0.1                           , BCC                                                         ,      ,       , C            , 1804   ,   2280   ,    9.1 ,        ,     19
+AlCoCrFeNiMo0.2                           , BCC+sigma                                                   ,      ,       , C            , 2456   ,   2953   ,    3.4 ,        ,     19
+AlCoCrFeNiMo0.3                           , BCC+sigma                                                   ,      ,       , C            , 2649   ,   3208   ,    3.3 ,        ,     19
+AlCoCrFeNiMo0.4                           , BCC+sigma                                                   ,      ,       , C            , 2670   ,   3161   ,    3.0 ,        ,     19
+AlCoCrFeNiMo0.5                           , BCC+sigma                                                   ,      ,       , C            , 2757   ,   3036   ,    2.5 ,        ,     19
+AlCoCrFeNi                                , BCC                                                         ,      ,  520  , C            , 1373   ,   3531   ,   24.5 ,        ,     20
+AlCoCrFeNb0.1Ni                           , BCC                                                         ,      ,  569  , C            , 1641   ,   3285   ,   17.2 ,        ,     20
+AlCoCrFeNb0.25Ni                          , BCC+Laves                                                   ,      ,  668  , C            , 1959   ,   3008   ,   10.5 ,        ,     20
+AlCoCrFeNb0.5Ni                           , BCC+Laves                                                   ,      ,  747  , C            , 2473   ,   3170   ,    4.1 ,        ,     20
+AlCoCrFeNb0.75Ni                          , Laves+BCC                                                   ,      ,       ,              ,        ,          ,        ,        ,     20
+AlCo0.5CrFeMo0.5Ni                        , BCC+sigma                                                   ,      ,  788  ,              ,        ,          ,        ,        ,     21
+AlCo1.0CrFeMo0.5Ni                        , BCC+sigma                                                   ,      ,  770  ,              ,        ,          ,        ,        ,     21
+AlCo1.5CrFeMo0.5Ni                        , BCC+sigma                                                   ,      ,  711  ,              ,        ,          ,        ,        ,     21
+AlCo2.0CrFeMo0.5Ni                        , BCC+FCC+sigma                                               ,      ,  596  ,              ,        ,          ,        ,        ,     21
+AlCoCrFe0.6Mo0.5Ni                        , BCC+sigma                                                   ,      ,  828  ,              ,        ,          ,        ,        ,     22
+AlCoCrFe1.0Mo0.5Ni                        , BCC+sigma                                                   ,      ,  818  ,              ,        ,          ,        ,        ,     22
+AlCoCrFe1.5Mo0.5Ni                        , BCC+sigma                                                   ,      ,  726  ,              ,        ,          ,        ,        ,     22
+AlCoCrFe2.0Mo0.5Ni                        , BCC+sigma                                                   ,      ,  723  ,              ,        ,          ,        ,        ,     22
+AlCoCrFeMo0.5                             , B2+sigma                                                    ,      ,  904  ,              ,        ,          ,        ,        ,     23
+AlCoCrFeMo0.5Ni0.5                        , B2+sigma                                                    ,      ,  770  ,              ,        ,          ,        ,        ,     23
+AlCoCrFeMo0.5Ni1.0                        , B2+sigma                                                    ,      ,  770  ,              ,        ,          ,        ,        ,     23
+AlCoCrFeMo0.5Ni1.5                        , B2+FCC+sigma                                                ,      ,  627  ,              ,        ,          ,        ,        ,     23
+AlCoCrFeMo0.5Ni2.0                        , B2+FCC+sigma                                                ,      ,  404  ,              ,        ,          ,        ,        ,     23
+AlCoCrFeNi                                , BCC                                                         ,      ,       , C            , 1110   ,          ,        ,        ,     24
+AlCoCrFeNiSi0.2                           , BCC                                                         ,      ,       , C            , 1265   ,   2173   ,   13.76,        ,     24
+AlCoCrFeNiSi0.4                           , BCC                                                         ,      ,       , C            , 1481   ,   2444   ,   13.38,        ,     24
+AlCoCrFeNiSi0.6                           , BCC                                                         ,      ,       , C            , 1834   ,   2195   ,    2.56,        ,     24
+AlCoCrFeNiSi0.8                           , BCC+delta                                                   ,      ,       , C            , 2179   ,   2664   ,    1.77,        ,     24
+AlCoCrFeNiSi1.0                           , BCC+delta                                                   ,      ,       , C            , 2411   ,   2950   ,    1.17,        ,     24
+Ti0.5CrFeCoNiCu                           , FCC                                                         ,      ,       , C            ,  700   ,   1650   ,   28.7 ,  92.73 ,     25
+Ti0.5CrFeCoNiAl0.25Cu0.75                 , FCC                                                         ,      ,       , C            ,  750   ,   1970   ,   38.5 , 102.85 ,     25
+Ti0.5CrFeCoNiAl0.5Cu0.5                   , FCC+BCC                                                     ,      ,       , C            , 1580   ,   2389   ,   17.4 , 160.54 ,     25
+Ti0.5CrFeCoNiAl0.75Cu0.25                 , BCC                                                         ,      ,       , C            , 1900   ,   2697   ,   12.0 , 164.14 ,     25
+Ti0.5CrFeCoNiAl                           , BCC                                                         ,      ,       , C            , 2040   ,   3135   ,   24.2 ,  72.68 ,     25
+AlCoCrFeNi                                , BCC                                                         ,      ,       , C            , 1500   ,   2830   ,   27.9 , 127.0  ,     26
+AlCoCrFeNiTi0.5                           , BCC                                                         ,      ,       , C            , 2260   ,   3140   ,   24.4 , 177.7  ,     26
+AlCoCrFeNiTi                              , BCC                                                         ,      ,       , C            , 1860   ,   2580   ,   10.5 ,  90.1  ,     26
+AlCoCrFeNiTi1.5                           , BCC+Laves                                                   ,      ,       , C            , 2220   ,   2720   ,    6.6 , 159.8  ,     26
+CuTiVFeNiZr                               ,                                                             ,      ,  590  ,              ,        ,          ,        ,        ,     27
+AlTiVFeNiZr                               ,                                                             ,      ,  800  ,              ,        ,          ,        ,        ,     27
+MoTiVFeNiZr                               ,                                                             ,      ,  740  ,              ,        ,          ,        ,        ,     27
+CuTiVFeNiZrCo                             ,                                                             ,      ,  630  ,              ,        ,          ,        ,        ,     27
+AlTiVFeNiZrCo                             ,                                                             ,      ,  790  ,              ,        ,          ,        ,        ,     27
+MoTiVFeNiZrCo                             ,                                                             ,      ,  790  ,              ,        ,          ,        ,        ,     27
+CuTiVFeNiZrCoCr                           ,                                                             ,      ,  680  ,              ,        ,          ,        ,        ,     27
+AlTiVFeNiZrCoCr                           ,                                                             ,      ,  780  ,              ,        ,          ,        ,        ,     27
+MoTiVFeNiZrCoCr                           ,                                                             ,      ,  850  ,              ,        ,          ,        ,        ,     27
+CuCoNiCrAl0.5Fe                           , FCC                                                         ,      ,       , C            ,        ,          ,   30   , 114    ,     27
+CuCoNiCrAl0.8Fe                           , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        , 145    ,     27
+CuCoNiCrAl1.0Fe                           , FCC+BCC                                                     ,      ,       , C            ,        ,          ,        , 163    ,     27
+CuCoNiCrFe                                , FCC                                                         ,      ,  133  ,              ,        ,          ,        ,        ,     27
+CuCoNiCrAlFe                              , FCC+BCC                                                     ,      ,  655  ,              ,        ,          ,        ,        ,     27
+CuCoNiCrAl2.0Fe                           , BCC                                                         ,      ,       , C            ,        ,          ,        ,        ,     27
+CuCoNiCrAlFeTiV                           , BCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     27
+Cu0.5CoNiCrAl                             , BCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     27
+CuCoNiCrAlFeMoTiVZr                       , BCC+amorphous                                               ,      ,       ,              ,        ,          ,        ,        ,     27
+Al0CoCr20Fe20Mn20Ni20                     , FCC                                                         ,      ,  176  , T            ,  209   ,    496   ,   61.7 ,        ,     28
+Al2CoCr20Fe20Mn20Ni20                     , FCC                                                         ,      ,  177  , T            ,  215   ,    505   ,   56   ,        ,     28
+Al3CoCr20Fe20Mn20Ni20                     , FCC                                                         ,      ,  178  , T            ,  220   ,    510   ,   53   ,        ,     28
+Al4CoCr20Fe20Mn20Ni20                     , FCC                                                         ,      ,  179  , T            ,  228   ,    515   ,   50   ,        ,     28
+Al7CoCr20Fe20Mn20Ni20                     , FCC                                                         ,      ,  182  , T            ,  242   ,    529   ,   47.2 ,        ,     28
+Al8CoCr20Fe20Mn20Ni20                     , FCC+BCC                                                     ,      ,  210  , T            ,  310   ,    640   ,   30   ,        ,     28
+Al9CoCr20Fe20Mn20Ni20                     , FCC+BCC                                                     ,      ,  270  , T            ,  440   ,    810   ,   18   ,        ,     28
+Al10CoCr20Fe20Mn20Ni20                    , FCC+BCC                                                     ,      ,  340  , T            ,  600   ,    980   ,   12   ,        ,     28
+Al11CoCr20Fe20Mn20Ni20                    , FCC+BCC                                                     ,      ,  390  , T            ,  832   ,   1174   ,    7.7 ,        ,     28
+Al12CoCr20Fe20Mn20Ni20                    , FCC+BCC                                                     ,      ,  460  , T            ,        ,          ,        ,        ,     28
+Al13CoCr20Fe20Mn20Ni20                    , FCC+BCC                                                     ,      ,  500  , T            ,        ,          ,        ,        ,     28
+Al14CoCr20Fe20Mn20Ni20                    , FCC+BCC                                                     ,      ,  538  , T            ,        ,          ,        ,        ,     28
+Al15CoCr20Fe20Mn20Ni20                    , FCC+BCC                                                     ,      ,  545  , T            ,        ,          ,        ,        ,     28
+Al16CoCr20Fe20Mn20Ni20                    , BCC                                                         ,      ,  555  ,              ,        ,          ,        ,        ,     28
+Al20CoCr20Fe20Mn20Ni20                    , BCC                                                         ,      ,  560  ,              ,        ,          ,        ,        ,     28
+CoCrFeMnNi                                , FCC                                                         ,      ,  144  , C            ,        ,          ,        ,        ,     29
+CoCrFeMnNi                                , FCC                                                         ,      ,  135  , C            ,  230   ,          ,   75   ,        ,     29
+CoCrFeMnNiV0.25                           , FCC                                                         ,      ,  151  , C            ,        ,          ,        ,        ,     29
+CoCrFeMnNiV0.25                           , FCC+sigma                                                   ,      ,  144  , C            ,  200   ,          ,   75   ,        ,     29
+CoCrFeMnNiV0.5                            , FCC+sigma                                                   ,      ,  186  , C            ,        ,          ,        ,        ,     29
+CoCrFeMnNiV0.5                            , FCC+sigma                                                   ,      ,  275  , C            ,  620   ,          ,   75   ,        ,     29
+CoCrFeMnNiV0.75                           , FCC+sigma                                                   ,      ,  342  , C            ,        ,          ,        ,        ,     29
+CoCrFeMnNiV0.75                           , FCC+sigma                                                   ,      ,  380  , C            ,  740   ,   1325   ,    7.8 ,        ,     29
+CoCrFeMnNiV                               , sigma+FCC                                                   ,      ,  650  , C            ,        ,          ,        ,        ,     29
+CoCrFeMnNiV                               , sigma+FCC                                                   ,      ,  636  , C            , 1660   ,   1845   ,    0.5 ,        ,     29
+Al0.3CrFe1.5MnNi0.5                       , BCC+FCC                                                     ,      ,  297  ,              ,        ,          ,        ,        ,     30
+Al0.3CrFe1.5MnNi0.5                       , BCC+FCC                                                     ,      ,  358  ,              ,        ,          ,        ,        ,     30
+Al0.3CrFe1.5MnNi0.5                       , BCC+FCC                                                     ,      ,  339  ,              ,        ,          ,        ,        ,     30
+Al0.3CrFe1.5MnNi0.5                       , BCC+FCC                                                     ,      ,  359  ,              ,        ,          ,        ,        ,     30
+Al0.3CrFe1.5MnNi0.5                       , BCC+FCC                                                     ,      ,  386  ,              ,        ,          ,        ,        ,     30
+Al0.3CrFe1.5MnNi0.5                       , BCC+FCC                                                     ,      ,  407  ,              ,        ,          ,        ,        ,     30
+Al0.3CrFe1.5MnNi0.5                       , BCC+FCC                                                     ,      ,  446  ,              ,        ,          ,        ,        ,     30
+Al0.5CrFe1.5MnNi0.5                       , BCC                                                         ,      ,  396  ,              ,        ,          ,        ,        ,     30
+Al0.5CrFe1.5MnNi0.5                       , BCC                                                         ,      ,  428  ,              ,        ,          ,        ,        ,     30
+Al0.5CrFe1.5MnNi0.5                       , BCC                                                         ,      ,  394  ,              ,        ,          ,        ,        ,     30
+Al0.5CrFe1.5MnNi0.5                       , BCC                                                         ,      ,  428  ,              ,        ,          ,        ,        ,     30
+Al0.5CrFe1.5MnNi0.5                       , BCC                                                         ,      ,  457  ,              ,        ,          ,        ,        ,     30
+Al0.5CrFe1.5MnNi0.5                       , BCC                                                         ,      ,  464  ,              ,        ,          ,        ,        ,     30
+Al0.5CrFe1.5MnNi0.5                       , BCC                                                         ,      ,  480  ,              ,        ,          ,        ,        ,     30
+AlCrFeNi                                  , BCC+BCC                                                     ,      ,  472.4, C            , 1406.2 ,   2926.5 ,   28.5 ,        ,     31
+AlCrFeNiMo0.2                             , BCC+BCC                                                     ,      ,  548.5, C            , 1487.4 ,   3222   ,   28.7 ,        ,     31
+AlCrFeNiMo0.5                             , BCC+BCC                                                     ,      ,  621.5, C            , 1748.6 ,   2643.5 ,   12.6 ,        ,     31
+AlCrFeNiMo0.8                             , BCC+σ                                                       ,      ,  853.8, C            , 1512.5 ,   1512.5 ,    0   ,        ,     31
+AlCrFeNiMo1.0                             , BCC+σ                                                       ,      ,  911.5, C            ,        ,          ,        ,        ,     31
+Cu0.5CoCrFeNi                             , FCC                                                         ,      ,  174  ,              ,        ,          ,        ,        ,     33
+Al0CoCrCuFeNi                             , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     34
+Al0.5CoCrCuFeNi                           , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     34
+Al0.8CoCrCuFeNi                           , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     34
+Al1.0CoCrCuFeNi                           , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     34
+Al1.5CoCrCuFeNi                           , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     34
+Al2.0CoCrCuFeNi                           , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     34
+Al2.5CoCrCuFeNi                           , BCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     34
+Al3.0CoCrCuFeNi                           , BCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     34
+CoCrCuFeNi                                , FCC                                                         ,      ,       , C            ,  230   ,    888   ,   50.2 ,  55.6  ,     35
+CoCrCuFeNiTi0.5                           , FCC                                                         ,      ,       , C            ,  700   ,   1650   ,   21.6 ,  98.6  ,     35
+CoCrCuFeNiTi0.8                           , FCC+Laves(Fe2Ti)                                            ,      ,       , C            , 1042   ,   1848   ,    2.11, 128.3  ,     35
+CoCrCuFeNiTi                              , FCC+Laves(Fe2Ti)                                            ,      ,       , C            , 1272   ,   1272   ,    0   ,  76.5  ,     35
+Al0.5CoCrCuFeNi                           , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     36
+Al0.5CoCrCuFeNiB0.2                       , FCC+borides                                                 ,      ,       ,              ,        ,          ,        ,        ,     36
+Al0.5CoCrCuFeNiB0.6                       , FCC+borides                                                 ,      ,       ,              ,        ,          ,        ,        ,     36
+Al0.5CoCrCuFeNiB1.0                       , FCC+borides                                                 ,      ,       ,              ,        ,          ,        ,        ,     36
+Al0.5CoCrCuFeNi                           , FCC                                                         ,      ,  225  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi0.2                      , FCC                                                         ,      ,  250  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi0.4                      , FCC+BCC                                                     ,      ,  290  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi0.6                      , FCC+BCC                                                     ,      ,  350  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi0.8                      , FCC+BCC+CoCr-like                                           ,      ,  460  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi1.0                      , FCC+BCC+CoCr-like                                           ,      ,  540  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi1.2                      , FCC+BCC+CoCr-like+Ti2Ni-like                                ,      ,  590  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi1.4                      , FCC+BCC(ordered)+Ti2Ni-like                                 ,      ,  620  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi1.6                      , FCC+BCC+Ti2Ni-like                                          ,      ,  640  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi1.8                      , FCC+BCC+Ti2Ni-like                                          ,      ,  650  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNiTi2.0                      , FCC+BCC+Ti2Ni-like                                          ,      ,  660  ,              ,        ,          ,        ,        ,     37
+Al0.5CoCrCuFeNi                           , FCC                                                         ,      ,  200  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV0.2                       , FCC                                                         ,      ,  200  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV0.4                       , FCC+BCC                                                     ,      ,  270  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV0.6                       , FCC+BCC+sigma                                               ,      ,  380  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV0.8                       , FCC+BCC+sigma                                               ,      ,  500  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV1.0                       , FCC+BCC+sigma                                               ,      ,  640  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV1.2                       , FCC+BCC                                                     ,      ,  576  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV1.4                       , FCC+BCC                                                     ,      ,  570  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV1.6                       , FCC+BCC                                                     ,      ,  570  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV1.8                       , FCC+BCC                                                     ,      ,  570  ,              ,        ,          ,        ,        ,     38
+Al0.5CoCrCuFeNiV2.0                       , FCC+BCC                                                     ,      ,  570  ,              ,        ,          ,        ,        ,     38
+FeCoNiCuAl                                , FCC+BCC                                                     ,      ,  536.2, C            ,        ,   1330   ,    9.0 ,        ,     39
+FeCoNiCuAlSi                              , FCC+BCC                                                     ,      ,  680.4, C            ,        ,   1930   ,   10.0 ,        ,     39
+FeCoNiCuAlCr                              , FCC+BCC                                                     ,      ,  472.0, C            ,        ,   1510   ,   16.0 ,        ,     39
+FeCoNiCuAlTi                              , FCC+BCC                                                     ,      ,  625.3, C            ,        ,   1660   ,   11.0 ,        ,     39
+FeCoNiCuAlZr                              , FCC+BCC+Intermetallic(ZrFe3Al)                              ,      ,  472.0, C            ,        ,   1050   ,    0   ,        ,     39
+FeCoNiCuAlNd                              , Compounds(complex)                                          ,      ,  577.6, C            ,        ,    670   ,    0   ,        ,     39
+AlCrFeCoNiCu                              , BCC+FCC                                                     ,      ,       , C            , 1303   ,   2081   ,   24.0 ,        ,     40
+AlCrFeCoNiCuMn                            , BCC+FCC+unknown                                             ,      ,       , C            , 1005   ,   1480   ,   15.0 ,        ,     40
+AlCrFeCoNiCuTi                            , BCC1+BCC2+FCC                                               ,      ,       , C            , 1234   ,   1356   ,    9.0 ,        ,     40
+AlCrFeCoNiCuV                             , BCC+FCC                                                     ,      ,       , C            , 1469   ,   1970   ,   16.0 ,        ,     40
+AlCoCrCuNiTi                              , BCC+Cu+Cr                                                   ,      ,       , C            ,        ,   1495.0 ,    7.68,  35.545,     42
+AlCoCrCuNiTiY0.5                          , Cu2Y+AlNi2Ti                                                ,      ,       , C            ,        ,   1024.5 ,    3.07,  35.815,     42
+AlCoCrCuNiTiY0.8                          , Cu2Y+AlNi2Ti+unknown                                        ,      ,       , C            ,        ,   1324.5 ,    4.73,  37.69 ,     42
+AlCoCrCuNiTiY                             , Cu2Y+AlNi2Ti+unknown+Cr                                     ,      ,       , C            ,        ,   1192.0 ,    3.54,  36.855,     42
+FeCoCuNi                                  , FCC                                                         ,      ,       , T            ,  200   ,    450   ,   12.0 ,        ,     43
+FeCoCuNiSn0.02                            , FCC                                                         ,      ,       , T            ,  220   ,    490   ,   16.0 ,        ,     43
+FeCoCuNiSn0.04                            , FCC                                                         ,      ,       , T            ,  260   ,    540   ,   18.0 ,        ,     43
+FeCoCuNiSn0.05                            , FCC                                                         ,      ,       , T            ,  270   ,    580   ,   19.8 ,        ,     43
+FeCoCuNiSn0.07                            , FCC+Cu81Sn22                                                ,      ,       , T            ,  310   ,    633   ,   17.0 ,        ,     43
+FeCoCuNiSn0.1                             , FCC+Cu81Sn22                                                ,      ,       , T            ,  300   ,    500   ,    8.0 ,        ,     43
+FeCoCuNiSn0.2                             , FCC+Cu81Sn22                                                ,      ,       , T            ,        ,    263   ,    1.2 ,        ,     43
+FeCoCuNiSn0.5                             , FCC+Cu81Sn22                                                ,      ,       , T            ,        ,          ,        ,        ,     43
+FeMnNiCuCo                                , FCC                                                         ,      ,  213  , T            ,  310   ,    440   ,   13.0 ,        ,     44
+FeMnNiCuCoSn0.03                          , FCC                                                         ,      ,  191  , T            ,  280   ,    440   ,   16.9 ,        ,     44
+FeMnNiCuCoSn0.05                          , FCC+Cu5.6Sn                                                 ,      ,  225  , T            ,  330   ,    476.9 ,   12.0 ,        ,     44
+FeMnNiCuCoSn0.08                          , FCC+Cu5.6Sn                                                 ,      ,  260  , T            ,  310   ,    450   ,    8.0 ,        ,     44
+FeMnNiCuCoSn0.1                           , FCC+Cu5.6Sn                                                 ,      ,  285  , T            ,  300   ,    430   ,    4.0 ,        ,     44
+FeMnNiCuCoSn0.2                           , FCC+Cu5.6Sn                                                 ,      ,  340  , T            ,  280   ,    367.7 ,    1.7 ,        ,     44
+AlCrFeCuNi0.6                             , BCC+FCC+AlFe0.23Ni0.77                                      ,      ,  530  , C            , 1300   ,   2100   ,   25.0 ,        ,     45
+AlCrFeCuNi0.8                             , BCC+FCC+AlFe0.23Ni0.77                                      ,      ,  490  , C            , 1200   ,   2400   ,   35.0 ,        ,     45
+AlCrFeCuNi1.0                             , BCC+FCC+AlFe0.23Ni0.77                                      ,      ,  510  , C            , 1200   ,   2000   ,   25.0 ,        ,     45
+AlCrFeCuNi1.2                             , BCC+FCC+AlFe0.23Ni0.77                                      ,      ,  370  , C            ,  900   ,   1500   ,   20.0 ,        ,     45
+AlCrFeCuNi1.4                             , BCC+FCC+AlFe0.23Ni0.77                                      ,      ,  300  , C            ,  700   ,   1200   ,   20.0 ,        ,     45
+Al0.2CrCuFeNi2                            , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     46
+Al0.5CrCuFeNi2                            , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     46
+Al0.8CrCuFeNi2                            , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     46
+Al1.0CrCuFeNi2                            , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     46
+Al1.2CrCuFeNi2                            , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     46
+Al0.5CoCrCuFeNi                           , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     46
+Al0.8CoCrCuFeNi                           , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     46
+Al1.0CoCrCuFeNi                           , FCC+BCC                                                     ,      ,       ,              ,        ,          ,        ,        ,     46
+Al2.0CoCrCuFeNi                           , BCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     46
+CoCrCuFeNi                                , FCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     46
+AlTiCrFeNiCu                              , BCC+BCC+Fe2Ti                                               ,      ,  520  , C            , 1200   ,   1219   ,    3.2 ,        ,     47
+Al25Ti25Ni25Cu25                          , FCC                                                         ,      ,  537  , C            ,  300   ,    536   ,    0.85, 108    ,     48
+Al25Ti25Ni25Cu25                          , FCC                                                         ,      ,  521  , C            ,  284   ,    498   ,    0.67,        ,     48
+Al25Ti25Ni25Cu25                          , FCC                                                         ,      ,  518  , C            ,  760   ,    870   ,    0.96,        ,     48
+Al25Ti25Ni25Cu25                          , FCC                                                         ,      ,  416  , C            , 1103   ,   1263   ,    1.2 ,        ,     48
+Al22.5Ti22.5Ni20Cu20Fe15                  , FCC1+FCC2                                                   ,      ,  516  , C            ,  980   ,   1326   ,    6.6 , 145    ,     48
+Al22.5Ti22.5Ni20Cu20Fe15                  , FCC1+FCC2                                                   ,      ,  434  , C            , 1065   ,   1210   ,    1.8 ,        ,     48
+Al22.5Ti22.5Ni20Cu20Fe15                  , FCC1+FCC2                                                   ,      ,  575  , C            ,  989   ,   1490   ,    8.5 ,        ,     48
+Al22.5Ti22.5Ni20Cu20Fe15                  , FCC1+FCC2                                                   ,      ,  370  , C            ,  737   ,   1335   ,    8.8 ,        ,     48
+Al20Ti20Ni20Cu20Fe20                      , FCC1+FCC2                                                   ,      ,  516  , C            , 1074   ,   1617   ,    8.2 , 146    ,     48
+Al20Ti20Ni20Cu20Fe20                      , FCC1+FCC2                                                   ,      ,  365  , C            , 1158   ,   1670   ,    5.8 ,        ,     48
+Al20Ti20Ni20Cu20Fe20                      , FCC1+FCC2                                                   ,      ,  544  , C            ,  836   ,   1569   ,   13.5 ,        ,     48
+Al20Ti20Ni20Cu20Fe20                      , FCC1+FCC2                                                   ,      ,  449  , C            ,  697   ,   1247   ,    4.3 ,        ,     48
+AlLiMgZnSn                                , Mg2Sn/Li2MgSn + alpha-Al + alpha-Zn + alpha-Sn              ,  4.23,       , C            ,        ,    615   ,    1.2 ,        ,     49
+AlLi0.5MgZn0.5Sn0.2                       , Mg32(AlZn)49 + Mg2Sn/Li2MgSn + alpha-Al                     ,  3.22,       , C            ,        ,    546   ,        ,        ,     49
+AlLi0.5MgZn0.5Cu0.2                       , Mg32(AlZn)49 + Unknown                                      ,  3.73,       ,              ,        ,          ,        ,        ,     49
+AlLi0.5MgCu0.5Sn0.2                       , AlMgCu + Mg2Sn/Li2MgSn + alpha-Sn                           ,  3.69,       ,              ,        ,          ,        ,        ,     49
+Al80Li5Mg5Zn5Sn5                          , alpha-Al + Mg2Sn/Li2MgSn + alpha-Sn                         ,  3.05,       , C            ,  415   ,    836   ,   16   ,        ,     49
+Al80Li5Mg5Zn5Cu5                          , alpha-Al + Al2Cu + AlCu3                                    ,  3.08,       , C            ,  488   ,    879   ,   17   ,        ,     49
+(Al0.5Mg0.5)95Li5                         , Al12Mg17 + Li + Unknown phase                               ,      ,       ,              ,        ,          ,        ,        ,     49
+(Al0.5Mg0.5)90Li10                        , Al12Mg17 + Li + Unknown phase                               ,      ,       ,              ,        ,          ,        ,        ,     49
+(Al0.5Mg0.5)85Li15                        , Al12Mg17 + Li + Unknown phase                               ,      ,       ,              ,        ,          ,        ,        ,     49
+(Al0.5Mg0.5)75Li25                        , Al12Mg17 + Li + Unknown phase                               ,      ,       ,              ,        ,          ,        ,        ,     49
+AlMgLi                                    , Al12Mg17 + Li + Unknown phase                               ,      ,       ,              ,        ,          ,        ,        ,     49
+Al40Mg40Li10Cu10                          , Al12Mg17 + AlCu + Mg32Al47Cu7                               ,      ,       ,              ,        ,          ,        ,        ,     49
+Al35Mg35Li15Cu15                          , Al12Mg17 + AlCu + Mg32Al47Cu7                               ,      ,       ,              ,        ,          ,        ,        ,     49
+Al40Mg40Li10Zn10                          , Mg32(AlZn)49 + HCP                                          ,      ,       ,              ,        ,          ,        ,        ,     49
+Al35Mg35Li15Zn15                          , Mg32(AlZn)49 + HCP                                          ,      ,       ,              ,        ,          ,        ,        ,     49
+Al35Mg35Li15Cu10La5                       , Al12Mg17 + AlCu + Mg32Al47Cu7 + Al7CuLa2 + Li-rich phase    ,      ,       ,              ,        ,          ,        ,        ,     49
+Al35Mg35Li15Cu10Ce5                       , Al12Mg17 + AlCu + Mg32Al47Cu7 + Al3CeCu + Li-rich phase     ,      ,       ,              ,        ,          ,        ,        ,     49
+Al35Mg35Li15Zn10La5                       , Al12Mg17 + Al2LaZn2 + Mg-rich phase                         ,      ,       ,              ,        ,          ,        ,        ,     49
+Al35Mg35Li5Zn10Ce5                        , Al4Ce + Mg32(AlZn)49 + Mg-rich phase                        ,      ,       ,              ,        ,          ,        ,        ,     49
+Al20Li20Mg10Sc20Ti30                      , fcc                                                         ,  2.67,  591  ,              ,        ,          ,        ,        ,     50
+Al20Li20Mg10Sc20Ti30                      , hcp                                                         ,  2.67,  500  ,              ,        ,          ,        ,        ,     50
+"Al20Li20Mg10Sc20Ti30_w/_N,O"             , fcc                                                         ,  2.67,  622  ,              ,        ,          ,        ,        ,     50
+"Al20Li20Mg10Sc20Ti30_w/_N,O"             , fcc                                                         ,  2.67,  602  ,              ,        ,          ,        ,        ,     50
+"Al20Li20Mg10Sc20Ti30_w/_N,O"             , fcc                                                         ,  2.67,  586  ,              ,        ,          ,        ,        ,     50
+Al25Nb25Ti25V25                           , BCC                                                         ,  5.59,       , C            , 1000   ,   1280   ,    5.2 ,        ,     51
+Al25Nb25Ti25V25                           , BCC                                                         ,  5.59,       , C            ,  780   ,   1005   ,   12.5 ,        ,     51
+Al25Nb25Ti25V25                           , BCC                                                         ,  5.59,       , C            ,  560   ,    700   ,   50   ,        ,     51
+Al25Nb25Ti25V25                           , BCC                                                         ,  5.59,       , C            ,  110   ,          ,   50   ,        ,     51
+Al22Cr11Nb22Ti22V22                       , BCC                                                         ,  5.71,       , C            , 1300   ,   1430   ,    0.8 ,        ,     51
+Al22Cr11Nb22Ti22V22                       , BCC                                                         ,  5.71,       , C            , 1005   ,   1045   ,    2.5 ,        ,     51
+Al22Cr11Nb22Ti22V22                       , BCC                                                         ,  5.71,       , C            ,  640   ,    685   ,   50   ,        ,     51
+Al22Cr11Nb22Ti22V22                       , BCC                                                         ,  5.71,       , C            ,   40   ,     80   ,   50   ,        ,     51
+Al20Cr20Nb20Ti20V20                       , BCC+C14 Laves                                               ,  5.82,       , C            , 1550   ,   1570   ,    0.4 ,        ,     51
+Al20Cr20Nb20Ti20V20                       , BCC+C14 Laves                                               ,  5.82,       , C            , 1015   ,   1060   ,    1.5 ,        ,     51
+Al20Cr20Nb20Ti20V20                       , BCC+C14 Laves                                               ,  5.82,       , C            ,  860   ,    895   ,   50   ,        ,     51
+Al20Cr20Nb20Ti20V20                       , BCC+C14 Laves                                               ,  5.82,       , C            ,   65   ,     95   ,   50   ,        ,     51
+Al18Cr27Nb18Ti18V18                       , BCC+C14 Laves                                               ,  5.9 ,       , C            , 1700   ,   1700   ,    0   ,        ,     51
+Al18Cr27Nb18Ti18V18                       , BCC+C14 Laves                                               ,  5.9 ,       , C            , 1370   ,   1480   ,    0.8 ,        ,     51
+Al18Cr27Nb18Ti18V18                       , BCC+C14 Laves                                               ,  5.9 ,       , C            ,  970   ,   1045   ,   50   ,        ,     51
+Al18Cr27Nb18Ti18V18                       , BCC+C14 Laves                                               ,  5.9 ,       , C            ,   75   ,    105   ,   50   ,        ,     51
+Al0.2Mo0.1Nb0.22Ta0.1Ti0.18Zr0.19         , 2BCC                                                        ,  7.4 ,  591  , C            , 2000   ,   2368   ,   10   ,        ,     52
+Al0.22Nb0.32Ta0.09Ti0.27Zr0.10            , BCC                                                         ,  6.88,  408  , C            , 1280   ,   1367   ,    3.5 ,        ,     52
+Al0.08Hf0.13Nb0.23Ta0.17Ti0.19Zr0.21      , BCC                                                         ,  9.05,  500  , C            , 1841   ,   2269   ,   10   ,        ,     52
+Al0.06Nb0.24Ta0.18Ti0.27Zr0.26            , 2BCC                                                        ,  8.18,  490  , C            , 1965   ,   2054   ,    5.0 ,        ,     52
+Al0.05Nb0.23Ta0.13Ti0.28V0.04Zr0.26       , BCC                                                         ,  7.78,  500  , C            , 1965   ,   2061   ,    5.0 ,        ,     52
+Al0.11Nb0.22Ta0.13Ti0.28V0.05Zr0.21       , 2BCC                                                        ,  7.42,  530  , C            , 2035   ,   2105   ,    4.5 ,        ,     52
+HfNbTaTiZr                                , BCC                                                         ,  9.72,  295  , C            , 1073   ,          ,   50   ,  55    ,     53
+Al0.3HfNbTaTiZr                           , BCC                                                         ,  9.53,  353  , C            , 1188   ,          ,   50   ,  63    ,     53
+Al0.5HfNbTaTiZr                           , BCC                                                         ,  9.34,  396  , C            , 1302   ,          ,   46   ,  97    ,     53
+Al0.75HfNbTaTiZr                          , BCC                                                         ,  9.27,  427  , C            , 1415   ,          ,   30   , 102    ,     53
+AlHfNbTaTiZr                              , BCC+BCC                                                     ,  8.91,  441  , C            , 1489   ,          ,   21   , 103    ,     53
+Nb0.25Ti0.25Mo0.25V0.25                   , BCC                                                         ,      ,  440.7, C            , 1200   ,          ,   25.62,        ,     54
+Al0.25NbTiMoV                             , BCC                                                         ,      ,  460.1, C            , 1250   ,          ,   12.91,        ,     54
+Al0.5NbTiMoV                              , BCC                                                         ,      ,  486.5, C            , 1625   ,          ,   11.25,        ,     54
+Al0.75NbTiMoV                             , BCC                                                         ,      ,  516.6, C            , 1260   ,          ,    7.5 ,        ,     54
+AlNbTiMoV                                 , BCC                                                         ,      ,  536.6, C            , 1375   ,          ,    2.5 ,        ,     54
+Al1.5NbTiMoV                              , BCC+ordered phase                                           ,      ,  556.4, C            ,  500   ,          ,    1.3 ,        ,     54
+NbTiVTa                                   , BCC                                                         ,      ,       , C            , 1092   ,          ,        , 140    ,     55
+NbTiVTaAl0.25                             , BCC                                                         ,      ,       , C            , 1330   ,          ,        , 138    ,     55
+NbTiVTaAl0.5                              , BCC                                                         ,      ,       , C            , 1012   ,          ,        , 135    ,     55
+NbTiVTaAl1.0                              , BCC                                                         ,      ,       , C            ,  991   ,          ,        , 130    ,     55
+Al0.266Nb0.238Ti0.251V0.245               , BCC                                                         ,  5.59,  448  , C            , 1020   ,   1318   ,    5   ,        ,     56
+Al0.266Nb0.238Ti0.251V0.245               , BCC                                                         ,  5.59,  448  , C            ,  810   ,   1050   ,   12   ,        ,     56
+Al0.266Nb0.238Ti0.251V0.245               , BCC                                                         ,  5.59,  448  , C            ,  685   ,          ,        ,        ,     56
+Al0.266Nb0.238Ti0.251V0.245               , BCC                                                         ,  5.59,  448  , C            ,  158   ,          ,        ,        ,     56
+Ti20Zr20Hf20Nb20V20                       , BCC + u                                                     ,      , 3800  , C            , 1170   ,   1463   ,   29.6 , 128    ,     57
+Ti20Zr20Hf20Nb20V20                       , BCC                                                         ,      , 3850  , C            , 1120   ,   1376   ,   30   ,        ,     57
+Ti20Zr20Hf20Nb20V20                       , BCC                                                         ,      , 3820  , C            , 1253   ,   1393   ,   38   ,        ,     57
+Ti20Zr20Hf20Nb20V20                       , BCC                                                         ,      , 3860  , C            , 1140   ,   1463   ,   29.7 ,        ,     57
+Ti20Zr20Hf20Nb20V20                       , BCC + V2M                                                   ,      , 3810  , C            , 1157   ,   1468   ,   39.6 ,        ,     57
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Laves (Cr2Nb + Cr2Hf)                                 ,      , 4550  , C            , 1375   ,   2130   ,    2.8 , 112    ,     57
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Laves (Cr2Nb + Cr2Hf)                                 ,      , 4570  , C            , 1420   ,   1885   ,    4.2 ,        ,     57
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Laves (Cr2Nb + Cr2Hf)                                 ,      , 4700  , C            , 1457   ,   1908   ,    2.2 ,        ,     57
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Laves (Cr2Nb + Cr2Hf)                                 ,      , 4800  , C            , 1322   ,   1726   ,    1.4 ,        ,     57
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Laves (Cr2Nb + Cr2Hf)                                 ,      , 4500  , C            , 1328   ,   1884   ,    4.5 ,        ,     57
+Ti20Zr20Hf20Nb20Ta20                      , BCC                                                         ,      , 3830  , C            ,  929   ,          ,   50   ,        ,     57
+W20Nb20Mo20Ta20                           , BCC                                                         ,      , 4460  , C            , 1058   ,   1211   ,    1.5 ,        ,     57
+W20Nb20Mo20Ta20V20                        , BCC                                                         ,      , 5250  , C            , 1246   ,   1270   ,    1.7 ,        ,     57
+Nb20Cr20Mo10Ta10Ti20Zr20                  , BCC1 + BCC2 + FCC (Laves C15)                               ,  8.23, 5288  , C            , 1595   ,   2046   ,    5.0 ,        ,     58
+Nb20Cr20Mo10Ta10Ti20Zr20                  , BCC1 + BCC2 + FCC (Laves C15)                               ,  8.23, 5288  , C            ,  983   ,   1100   ,    5.5 ,        ,     58
+Nb20Cr20Mo10Ta10Ti20Zr20                  , BCC1 + BCC2 + FCC (Laves C15)                               ,  8.23, 5288  , C            ,  546   ,    630   ,        ,        ,     58
+Nb20Cr20Mo10Ta10Ti20Zr20                  , BCC1 + BCC2 + FCC (Laves C15)                               ,  8.23, 5288  , C            ,  170   ,    190   ,        ,        ,     58
+Nb28.3Ti24.5V23.0Zr24.2                   , BCC                                                         ,  6.52, 3285  , C            , 1105   ,          ,   50   ,  80    ,     59
+Nb22.6Ti19.4V37.2Zr20.8                   , BCC (3 disordered BCC phases)                               ,  6.34, 2987  , C            ,  918   ,          ,   50   ,  98    ,     59
+Cr24.6Nb26.7Ti23.9Zr24.8                  , BCC + FCC Laves (35 vol%)                                   ,  6.67, 4099  , C            , 1260   ,   1575   ,    6   , 120    ,     59
+Cr20.2Nb20.0Ti19.9V19.6Zr20.3             , BCC + FCC Laves (61 vol%)                                   ,  6.57, 4720  , C            , 1298   ,   1725   ,    3   , 100    ,     59
+Nb28.3Ti24.5V23.0Zr24.2                   , BCC                                                         ,  6.52,       , C            ,  834   ,          ,   50   ,        ,     59
+Nb22.6Ti19.4V37.2Zr20.8                   , BCC (3 disordered BCC phases)                               ,  6.34,       , C            ,  571   ,          ,   50   ,        ,     59
+Cr24.6Nb26.7Ti23.9Zr24.8                  , BCC + FCC Laves (35 vol%)                                   ,  6.67,       , C            , 1035   ,          ,   50   ,        ,     59
+Cr20.2Nb20.0Ti19.9V19.6Zr20.3             , BCC + FCC Laves (61 vol%)                                   ,  6.57,       , C            , 1230   ,          ,   50   ,        ,     59
+Nb28.3Ti24.5V23.0Zr24.2                   , BCC                                                         ,  6.52,       , C            ,  187   ,          ,   50   ,        ,     59
+Nb22.6Ti19.4V37.2Zr20.8                   , BCC (3 disordered BCC phases)                               ,  6.34,       , C            ,  240   ,          ,   50   ,        ,     59
+Cr24.6Nb26.7Ti23.9Zr24.8                  , BCC + FCC Laves (35 vol%)                                   ,  6.67,       , C            ,  300   ,          ,   50   ,        ,     59
+Cr20.2Nb20.0Ti19.9V19.6Zr20.3             , BCC + FCC Laves (61 vol%)                                   ,  6.57,       , C            ,  615   ,          ,   50   ,        ,     59
+Nb28.3Ti24.5V23.0Zr24.2                   , BCC                                                         ,  6.52,       , C            ,   58   ,          ,   50   ,        ,     59
+Nb22.6Ti19.4V37.2Zr20.8                   , BCC (3 disordered BCC phases)                               ,  6.34,       , C            ,   72   ,          ,   50   ,        ,     59
+Cr24.6Nb26.7Ti23.9Zr24.8                  , BCC + FCC Laves (35 vol%)                                   ,  6.67,       , C            ,  115   ,          ,   50   ,        ,     59
+Cr20.2Nb20.0Ti19.9V19.6Zr20.3             , BCC + FCC Laves (61 vol%)                                   ,  6.57,       , C            ,  259   ,          ,   50   ,        ,     59
+Ti20Zr20Hf20Nb20V20                       , BCC + unknown                                               ,      ,  387  , C            , 1170   ,   1463   ,   29.6 , 128    ,     60
+Ti20Zr20Hf20Nb20V20                       , BCC                                                         ,      ,  392  , C            , 1120   ,   1376   ,   30.0 ,        ,     60
+Ti20Zr20Hf20Nb20V20                       , BCC                                                         ,      ,  389  , C            , 1253   ,   1393   ,   38.0 ,        ,     60
+Ti20Zr20Hf20Nb20V20                       , BCC                                                         ,      ,  393  , C            , 1140   ,   1463   ,   29.7 ,        ,     60
+Ti20Zr20Hf20Nb20V20                       , BCC + V2M Laves                                             ,      ,  388  , C            , 1157   ,   1468   ,   39.6 ,        ,     60
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Cr2Nb + Cr2Hf Laves                                   ,      ,  464  , C            , 1375   ,   2130   ,    2.8 , 112    ,     60
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Cr2Nb + Cr2Hf Laves                                   ,      ,  466  , C            , 1420   ,   1885   ,    4.2 ,        ,     60
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Cr2Nb + Cr2Hf Laves                                   ,      ,  479  , C            , 1457   ,   1908   ,    2.2 ,        ,     60
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Cr2Nb + Cr2Hf Laves                                   ,      ,  489  , C            , 1322   ,   1726   ,    1.4 ,        ,     60
+Ti20Zr20Hf20Nb20Cr20                      , BCC + Cr2Nb + Cr2Hf Laves                                   ,      ,  459  , C            , 1328   ,   1884   ,    4.5 ,        ,     60
+Ti20Zr20Hf20Nb20Ta20                      , BCC                                                         ,      ,  390  , C            ,  929   ,          ,   50.0 ,        ,     60
+W20Nb20Mo20Ta20                           , BCC                                                         ,      ,  455  , C            , 1058   ,   1211   ,    1.5 ,        ,     60
+W20Nb20Mo20Ta20V20                        , BCC                                                         ,      ,  535  , C            , 1246   ,   1270   ,    1.7 ,        ,     60
+Mo0.5NbHf0.5ZrTi                          , BCC                                                         ,      ,       , C            , 1176   ,   1538   ,   24.61,        ,     61
+Mo0.5NbHf0.5ZrTiC0.1                      , BCC + MC carbide (FCC)                                      ,      ,       , C            , 1183   ,   2139   ,   38.39,        ,     61
+Mo0.5NbHf0.5ZrTiC0.3                      , BCC + MC carbide (FCC)                                      ,      ,       , C            , 1201   ,   1965   ,   32.62,        ,     61
+Hf20Nb20Ta20Ti20Zr20                      , BCC                                                         ,  9.91,  335  , C            , 1015   ,          ,        ,  85    ,     62
+Hf19Mo4.8Nb19Ta19Ti19Zr19                 , BCC                                                         ,  9.94,  395  , C            , 1112   ,          ,        ,  96    ,     62
+Hf18.2Mo9.1Nb18.2Ta18.2Ti18.2Zr18.2       , BCC                                                         ,  9.96,  480  , C            , 1317   ,          ,        , 102    ,     62
+Hf17.4Mo13Nb17.4Ta17.4Ti17.4Zr17.4        , BCC                                                         ,  9.97,  492  , C            , 1373   ,          ,        , 109    ,     62
+Hf16.7Mo16.7Nb16.7Ta16.7Ti16.7Zr16.7      , BCC                                                         ,  9.97,  505  , C            , 1512   ,          ,   12   , 115    ,     62
+Hf0.2Mo0.2Ta0.2Ti0.2Zr0.2                 , BCC                                                         , 10.24,  542  , C            , 1600   ,   1743   ,    4   ,        ,     63
+Hf0.2Mo0.2Ta0.2Ti0.2Zr0.2                 , BCC                                                         , 10.24,  542  , C            , 1045   ,   1446   ,   19   ,        ,     63
+Hf0.2Mo0.2Ta0.2Ti0.2Zr0.2                 , BCC                                                         , 10.24,  542  , C            ,  855   ,          ,   30   ,        ,     63
+Hf0.2Mo0.2Ta0.2Ti0.2Zr0.2                 , BCC                                                         , 10.24,  542  , C            ,  404   ,          ,   30   ,        ,     63
+Hf0.167Mo0.167Nb0.167Ta0.167Ti0.167Zr0.167, BCC                                                         ,  9.97,  505  , C            , 1512   ,   1828   ,   12   ,        ,     63
+Hf0.167Mo0.167Nb0.167Ta0.167Ti0.167Zr0.167, BCC                                                         ,  9.97,  505  , C            , 1007   ,   1489   ,   23   ,        ,     63
+Hf0.167Mo0.167Nb0.167Ta0.167Ti0.167Zr0.167, BCC                                                         ,  9.97,  505  , C            ,  814   ,          ,   30   ,        ,     63
+Hf0.167Mo0.167Nb0.167Ta0.167Ti0.167Zr0.167, BCC                                                         ,  9.97,  505  , C            ,  556   ,          ,   30   ,        ,     63
+Hf0.2Nb0.2Ta0.2Ti0.2Zr0.2                 , BCC                                                         ,  9.94,       , C            ,  929   ,          ,   50   ,        ,     63
+Hf0.2Nb0.2Ta0.2Ti0.2Zr0.2                 , BCC                                                         ,  9.94,       , C            ,   93   ,          ,        ,        ,     63
+Mo0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,      ,       , C            , 1719   ,   1803   ,   10.12,        ,     64
+Mo0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,      ,       , C            , 1575   ,   1640   ,    9.08,        ,     64
+Mo0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,      ,       , C            ,  825   ,   1095   ,   60   ,        ,     64
+Mo0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,      ,       , C            ,  728   ,    938   ,   60   ,        ,     64
+Mo0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,      ,       , C            ,  635   ,    654   ,   60   ,        ,     64
+Mo0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,      ,       , C            ,  397   ,    399   ,   60   ,        ,     64
+Mo0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,      ,       , C            ,  187   ,    194   ,   60   ,        ,     64
+HfNbTiVSi0.5                              , BCC + silicide                                              ,  8.6 ,  490  , C            , 1399   ,   1608   ,   10.9 ,        ,     65
+HfNbTiVSi0.5                              , BCC + silicide                                              ,  8.6 ,  490  , C            ,  875   ,          ,        ,        ,     65
+HfNbTiVSi0.5                              , BCC + silicide                                              ,  8.6 ,  490  , C            ,  240   ,          ,        ,        ,     65
+HfNbSi0.5TiVZr                            , BCC + silicide + V-rich                                     ,  7.75,  464  , C            , 1540   ,   1643   ,   16.8 ,        ,     66
+HfNbSi0.5TiVZr                            , BCC + silicide + V-rich                                     ,  7.75,  464  , C            ,  920   ,   1252   ,        ,        ,     66
+HfNbSi0.5TiVZr                            , BCC + silicide + V-rich                                     ,  7.75,  464  , C            ,  371   ,    427   ,        ,        ,     66
+HfNbSi0.5TiVZr                            , BCC + silicide + V-rich                                     ,  7.75,  496  , C            , 1483   ,   1611   ,    9.5 ,        ,     66
+HfNbSi0.5TiVZr                            , BCC + silicide + V-rich                                     ,  7.75,  496  , C            , 1273   ,   1335   ,   14.5 ,        ,     66
+HfNbSi0.5TiVZr                            , BCC + silicide + V-rich                                     ,  7.75,  496  , C            ,  597   ,    651   ,        ,        ,     66
+HfNbSi0.5TiVZr                            , BCC + silicide + V-rich                                     ,  7.75,  496  , C            ,  102   ,    107   ,        ,        ,     66
+TaNbHfZrTi                                , BCC                                                         ,  9.94,  382  , C            ,  929   ,          ,        ,        ,     66
+NbTiVZr                                   , BCC                                                         ,  6.52,  328  , C            , 1105   ,          ,        ,        ,     66
+CrNbTiVZr                                 ,                                                             ,  6.57,  472  , C            , 1298   ,          ,    3   ,        ,     66
+HfNbTaTiZr                                , BCC                                                         ,  9.72,  289  , C            , 1073   ,          ,        ,        ,     66
+Al0.5HfNbTaTiZr                           ,                                                             ,  9.34,  388  , C            , 1302   ,          ,   46   ,        ,     66
+AlHfNbTaTiZr                              ,                                                             ,  8.91,  432  , C            , 1489   ,          ,   21   ,        ,     66
+AlNbTiV                                   ,                                                             ,  5.59,  431  , C            , 1020   ,          ,    8.5 ,        ,     66
+NbMoTaW                                   , BCC                                                         , 13.75,  446  , C            , 1058   ,          ,    2.6 ,        ,     66
+VNbMoTaW                                  , BCC                                                         , 12.36,  542  , C            , 1087   ,          ,    2.4 ,        ,     66
+Ta0.25Nb0.25Hf0.25Zr0.25                  , BCC                                                         ,      , 3575  , C            , 1315   ,          ,   21.6 ,        ,     67
+Ta0.25Nb0.25Hf0.25Zr0.25                  , BCC                                                         ,      , 4250  , C            , 1739   ,          ,    2.25,        ,     67
+Ta0.25Nb0.25Hf0.25Zr0.25                  , BCC                                                         ,      , 4800  , C            , 2000   ,          ,    1.0 ,        ,     67
+Ta0.25Nb0.25Hf0.25Zr0.25                  , BCC                                                         ,      , 5598  , C            , 2310   ,          ,    0.35,        ,     67
+Ta0.25Nb0.25Hf0.25Zr0.25                  , BCC                                                         ,      , 5300  , C            , 2100   ,          ,    0.5 ,        ,     67
+Ta0.25Nb0.25Hf0.25Zr0.25                  , BCC + hcp                                                   ,      , 5100  , C            , 2050   ,          ,    2.0 ,        ,     67
+Ta0.25Nb0.25Hf0.25Zr0.25                  , BCC + BCC + hcp                                             ,      , 5262  , C            , 2010   ,          ,    3.5 ,        ,     67
+Hf0.5Nb0.5Ta0.5Ti1.5Zr                    , BCC                                                         ,  8.13,  301  , T            ,  903   ,    990   ,   18.8 ,        ,     68
+HfNbTiZr                                  , BCC                                                         ,      ,       , T            ,  879   ,    969   ,   14.9 ,        ,     68
+HfNbTaTiZr                                , BCC                                                         ,      ,       , T            ,  820   ,    870   ,    7.5 ,        ,     68
+HfMoTaTiZr                                , BCC                                                         ,  9.94,       ,              ,        ,          ,        ,        ,     68
+HfMoNbTaTiZr                              , BCC                                                         ,  9.97,       ,              ,        ,          ,        ,        ,     68
+HfMoNbTiZr                                , BCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     68
+MoNbTaVW                                  , BCC                                                         , 12.36,       ,              ,        ,          ,        ,        ,     68
+MoNbTaW                                   , BCC                                                         , 13.75,       ,              ,        ,          ,        ,        ,     68
+MoNbTaV                                   , BCC                                                         ,      ,       ,              ,        ,          ,        ,        ,     68
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  929   ,          ,   50   ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  790   ,          ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  675   ,          ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  535   ,    692   ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  295   ,          ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,   92   ,          ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  285   ,    175   ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  475   ,    368   ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  543   ,    746   ,        ,        ,     69
+Ta20Nb20Hf20Zr20Ti20                      , BCC                                                         ,  9.94,       , C            ,  550   ,    777   ,        ,        ,     69
+Ta25Nb25Mo25W25                           , BCC                                                         , 13.8 , 4500  , C            , 1058   ,          ,        ,        ,     69
+Ta25Nb25Mo25W25                           , BCC                                                         , 13.8 ,       , C            ,  405   ,          ,        ,        ,     69
+Ta20Nb20V20Mo20W20                        , BCC                                                         , 12.4 , 5300  , C            , 1246   ,          ,        ,        ,     69
+Ta20Nb20V20Mo20W20                        , BCC                                                         , 12.4 ,       , C            ,  477   ,          ,        ,        ,     69
+Ta0.2Nb0.2Hf0.2Zr0.2Ti0.2                 , BCC                                                         ,  9.94, 3826  , C            ,  929   ,          ,   50   ,        ,     70
+Ta0.25Nb0.25W0.25Mo0.25                   , BCC                                                         ,      , 4500  , C            , 1058   ,          ,        ,        ,     70
+Ta0.2Nb0.2W0.2Mo0.2V0.2                   , BCC                                                         ,      , 5300  , C            , 1246   ,          ,        ,        ,     70
+MoNbTaV                                   , BCC                                                         ,      , 4947  , C            , 1525   ,   2400   ,   21   ,        ,     72
+Nb25Mo25Ta25W25                           , BCC                                                         ,      , 4460  , C            , 1058   ,   1211   ,    2.6 , 220    ,     73
+V20Nb20Mo20Ta20W20                        , BCC                                                         ,      , 5420  , C            , 1246   ,   1270   ,    1.7 , 180    ,     73
+TiZrNbV                                   , bcc                                                         ,  6.46,       , C            , 1104   ,          ,   50   ,        ,     74
+TiZrNbMo0.3V                              , bcc                                                         ,  6.69,       , C            , 1289   ,          ,   42   ,        ,     74
+TiZrNbMo0.5V                              , bcc                                                         ,  6.83,       , C            , 1473   ,          ,   32   ,        ,     74
+TiZrNbMo0.7V                              , bcc                                                         ,  6.96,       , C            , 1706   ,          ,   32   ,        ,     74
+TiZrNbMo1.0V                              , bcc                                                         ,  7.13,       , C            , 1779   ,          ,   32   ,        ,     74
+TiZrNbMo1.3V                              , bcc+bcc                                                     ,  7.29,       , C            , 1496   ,          ,   30   ,        ,     74
+TiZrNbMo1.5V                              , bcc+bcc                                                     ,  7.38,       , C            , 1603   ,          ,   20   ,        ,     74
+TiZrNbMo1.7V                              , bcc+bcc                                                     ,  7.48,       , C            , 1645   ,          ,   15   ,        ,     74
+TiZrNbMo2.0V                              , bcc+bcc                                                     ,  7.6 ,       , C            , 1765   ,          ,   12   ,        ,     74
+TiZrNbV0.3                                , bcc                                                         ,  6.51,       , C            ,  866   ,          ,   45   ,        ,     74
+TiZrNbV0.3Mo0.1                           , bcc                                                         ,  6.6 ,       , C            ,  932   ,          ,   45   ,        ,     74
+TiZrNbV0.3Mo0.3                           , bcc                                                         ,  6.77,       , C            , 1312   ,          ,   50   ,        ,     74
+TiZrNbV0.3Mo0.5                           , bcc                                                         ,  6.93,       , C            , 1301   ,          ,   43   ,        ,     74
+TiZrNbV0.3Mo0.7                           , bcc                                                         ,  7.07,       , C            , 1436   ,          ,   26.6 ,        ,     74
+TiZrNbV0.3Mo1.0                           , bcc                                                         ,  7.26,       , C            , 1455   ,          ,   25   ,        ,     74
+TiZrNbV0.3Mo1.3                           , bcc                                                         ,  7.43,       , C            , 1603   ,          ,   20   ,        ,     74
+TiZrNbV0.3Mo1.5                           , bcc                                                         ,  7.53,       , C            , 1576   ,          ,    8   ,        ,     74
+AlCoCrFeNiTi0.5                           ,                                                             ,  6.44,       , C            , 2260   ,          ,   23.3 ,        ,     74
+AlCrFeCoNi                                ,                                                             ,  6.72,       , C            , 1251   ,          ,   32.7 ,        ,     74
+CrFeCoNiCuTi0.8                           ,                                                             ,  7.58,       , C            , 1042   ,          ,    2.1 ,        ,     74
+CrFeCoNiCuTi0.5                           ,                                                             ,  7.82,       , C            ,  700   ,          ,   21.6 ,        ,     74
+CrFeCoNiCu                                ,                                                             ,  8.33,       , C            ,  230   ,          ,   50   ,        ,     74
+AlCrFeCoNiCu                              ,                                                             ,  7.07,       , C            , 1303   ,          ,   18   ,        ,     74
+AlCrFeCoNiCuV                             ,                                                             ,  6.92,       , C            , 1469   ,          ,    6   ,        ,     74
+Cu0.25AlCoCrFeNiTi0.5                     ,                                                             ,  6.54,       , C            , 1994   ,          ,    9.1 ,        ,     74
+AlCoCrFeNiMo0.1                           ,                                                             ,  6.45,       , C            , 1804   ,          ,    7.5 ,        ,     74
+AlCoCrFeNiSi0.2                           ,                                                             ,  6.92,       , C            , 1265   ,          ,   13.8 ,        ,     74
+AlCoCrFeNiSi0.4                           ,                                                             ,  6.22,       , C            , 1481   ,          ,   13.4 ,        ,     74
+TaNbHfZrTi                                ,                                                             ,  9.9 ,       , C            ,  929   ,          ,   50   ,        ,     74
+NbMoTaW                                   ,                                                             , 13.64,       , C            , 1058   ,          ,    2.6 ,        ,     74
+VNbMoTaW                                  ,                                                             , 12.36,       , C            , 1246   ,          ,    1.7 ,        ,     74
+NbCrMo0.5Ta0.5TiZr                        ,                                                             ,  8.0 ,       , C            , 1595   ,          ,    5   ,        ,     74
+CrNbTiZr                                  ,                                                             ,  6.64,       , C            , 1260   ,          ,    6   ,        ,     74
+CrNbTiVZr                                 ,                                                             ,  6.56,       , C            , 1289   ,          ,    3   ,        ,     74
+AlMo0.5NbTa0.5TiZr                        ,                                                             ,  7.3 ,       , C            , 2000   ,          ,    9   ,        ,     74
+AlNb1.5Ta0.5Ti1.5Zr0.5                    ,                                                             ,  6.8 ,       , C            , 1280   ,          ,    2.5 ,        ,     74
+Al0.4Hf0.6NbTaTiZr                        ,                                                             ,  9.0 ,       , C            , 1841   ,          ,    9   ,        ,     74
+Al0.3NbTaTi1.4Zr1.3                       ,                                                             ,  8.1 ,       , C            , 1965   ,          ,    4   ,        ,     74
+Al0.3NbTa0.8Ti1.4V0.2Zr1.3                ,                                                             ,  7.6 ,       , C            , 1965   ,          ,    4   ,        ,     74
+Al0.5NbTa0.8Ti1.5V0.2Zr                   ,                                                             ,  7.3 ,       , C            , 2035   ,          ,    3.5 ,        ,     74
+TiZrNbMo                                  , bcc                                                         ,      ,       , C            ,  820   ,   1280   ,   15   ,        ,     75
+TiZrNbMoV0.25                             , bcc                                                         ,      ,       , C            ,  860   ,   1400   ,   18   ,        ,     75
+TiZrNbMoV0.5                              , bcc                                                         ,      ,       , C            ,  950   ,   1500   ,   16   ,        ,     75
+TiZrNbMoV0.75                             , bcc                                                         ,      ,       , C            , 1000   ,   1580   ,   14   ,        ,     75
+TiZrNbMoV1                                , bcc                                                         ,      ,       , C            , 1050   ,   1650   ,   12   ,        ,     75
+TiZrNbMoV1.5                              , bcc+Zr-rich bcc                                             ,      ,       , C            , 1150   ,   1750   ,    8   ,        ,     75
+TiZrNbMoV2                                , bcc+Zr-rich bcc                                             ,      ,       , C            , 1200   ,   1800   ,    6   ,        ,     75
+TiZrNbMoV3                                , bcc+Zr-rich bcc                                             ,      ,       , C            , 1320   ,   1780   ,    3   ,        ,     75
+CoCrFeNiAl                                , bcc                                                         ,      ,       , C            , 1300   ,   2600   ,   20   ,        ,     75
+CoCrFeNiAlNb0.1                           , bcc                                                         ,      ,       ,              ,        ,          ,        ,        ,     75
+CoCrFeNiAlNb0.25                          , bcc+Laves                                                   ,      ,       ,              ,        ,          ,        ,        ,     75
+CoCrFeNiAlNb0.5                           , bcc+Laves                                                   ,      ,       ,              ,        ,          ,        ,        ,     75
+CoCrFeNiAlNb0.75                          , bcc+Laves                                                   ,      ,       ,              ,        ,          ,        ,        ,     75
+CoCrFeNiAl                                , bcc                                                         ,      ,       , C            , 1050   ,   2550   ,   23   ,        ,     75
+CoCrFeNiAl                                , bcc                                                         ,      ,       , C            , 1050   ,   2600   ,   26   ,        ,     75
+CoCrFeNiAl                                , bcc                                                         ,      ,       , C            , 1050   ,   2650   ,   28   ,        ,     75
+CoCrFeNiAl                                , bcc                                                         ,      ,       , C            , 1050   ,   2700   ,   30   ,        ,     75
+AlCoCrFeNi                                , bcc                                                         ,      ,       , C            , 1450   ,   2960   ,   15.3 ,        ,     75
+AlCoCrFeNi                                , bcc                                                         ,      ,       , C            , 1880   ,   3550   ,   14.3 ,        ,     75
+Nb0.25Ta0.25Ti0.25V0.25                   , BCC                                                         ,      , 3113  , C            ,  965   ,          ,        ,        ,     76
+Nb0.25Ta0.25V0.25W0.25                    , BCC                                                         ,      , 4830  , C            , 1530   ,          ,   12   ,        ,     76
+Nb0.2Ta0.2Ti0.2V0.2W0.2                   , BCC                                                         ,      , 4380  , C            , 1420   ,          ,   20   ,        ,     76
+CoFeNiV                                   , FCC                                                         ,      ,  238.1, C            ,  428.3 ,          ,   80.0 ,        ,     77
+CoFeNiVMo0.2                              , FCC + CoMo2Ni-type                                          ,      ,  298.5, C            ,  686.9 ,          ,   80.0 ,        ,     77
+CoFeNiVMo0.4                              , FCC + CoMo2Ni-type                                          ,      ,  367.8, C            , 1100.0 ,   1900.0 ,   19.7 ,        ,     77
+CoFeNiVMo0.6                              , FCC + CoMo2Ni-type (eutectic)                               ,      ,  463.2, C            , 1450.0 ,   1600.0 ,    4.0 ,        ,     77
+CoFeNiVMo0.8                              , FCC + CoMo2Ni-type                                          ,      ,  543.9, C            , 1700.0 ,   2163.8 ,    4.0 ,        ,     77
+CoFeNiVMo                                 , FCC + CoMo2Ni-type                                          ,      ,  624.6, C            , 1900.0 ,   2050.0 ,    4.0 ,        ,     77
+CoFeNi1.2VMo                              , FCC + Co2Mo3-type                                           ,      ,  572.4, C            , 1400.0 ,   1500.0 ,    4.0 ,        ,     77
+CoFeNi1.4VMo                              , FCC + Co2Mo3-type (eutectic)                                ,      ,  510.3, C            , 1350.0 ,   1450.0 ,    4.0 ,        ,     77
+CoFeNi1.6VMo                              , FCC + Co2Mo3-type                                           ,      ,  451.8, C            , 1300.0 ,   1400.0 ,    4.0 ,        ,     77
+CoFeNi1.8VMo                              , FCC + Co2Mo3-type                                           ,      ,  416.7, C            , 1250.0 ,   1350.0 ,    4.0 ,        ,     77
+CoFeNi2VMo                                , FCC + Co2Mo3-type                                           ,      ,  382.3, C            ,  679.1 ,   1152.6 ,   24.7 ,        ,     77
+Fe-3.62C-2.51Si-0.84Mn                    , Martensite + Spheroidal graphite + Retained austenite (<5%) ,      ,       ,              ,        ,          ,        ,        ,     78
+Fe-3.62C-2.51Si-0.85Mn-0.40Cr             , Martensite + Spheroidal graphite + Eutectic carbides (5-10%),      ,       ,              ,        ,          ,        ,        ,     78
+Fe-3.62C-2.51Si-0.86Mn-0.50Cu             , Martensite + Spheroidal graphite + Retained austenite (<5%) ,      ,       ,              ,        ,          ,        ,        ,     78
+Fe-3.62C-2.51Si-0.83Mn-0.50Ni             , Martensite + Spheroidal graphite + Retained austenite (<5%) ,      ,       ,              ,        ,          ,        ,        ,     78
+Fe-3.62C-2.51Si-0.85Mn-0.40Cr-0.50Ni      , Martensite + Spheroidal graphite + Retained austenite (<5%) ,      ,       ,              ,        ,          ,        ,        ,     78
+Fe-3.62C-2.51Si-0.87Mn-0.40Cr-0.50Cu      , Martensite + Spheroidal graphite + Retained austenite (<5%) ,      ,       ,              ,        ,          ,        ,        ,     78
+Fe-3.62C-3.05Si-0.84Mn                    , Martensite + Spheroidal graphite + Retained austenite (<5%) ,      ,       ,              ,        ,          ,        ,        ,     78
+Fe-3.62C-3.52Si-0.85Mn                    , Martensite + Spheroidal graphite + Retained austenite (<5%) ,      ,       ,              ,        ,          ,        ,        ,     78
+Cu0.333Mn0.333Ni0.333                     , A1                                                          ,      ,       , C            ,  210   ,          ,   40   ,        ,     79
+Cu0.317Mn0.317Ni0.317Al0.050              , A1 + B1                                                     ,      ,  174  , C            ,  330   ,          ,   45   ,        ,     79
+Cu0.300Mn0.300Ni0.300Al0.100              , A1 + B1                                                     ,      ,  220  , C            ,  515   ,          ,   40   ,        ,     79
+Cu0.267Mn0.267Ni0.267Al0.200              , B1 + H-L21                                                  ,      ,  355  ,              ,        ,          ,        ,        ,     79
+Cu0.250Mn0.250Ni0.250Al0.250              , H-L21                                                       ,      ,  373  ,              ,        ,          ,        ,        ,     79
+Cu0.233Mn0.233Ni0.233Al0.300              , H-L21 + B2                                                  ,      ,  359  ,              ,        ,          ,        ,        ,     79
+Cu0.200Mn0.200Ni0.200Al0.400              , H-L21 + B2                                                  ,      ,  398  ,              ,        ,          ,        ,        ,     79
+Cu0.317Mn0.317Ni0.317Sn0.050              , A1 + H-L21                                                  ,      ,  178  , C            ,  380   ,          ,   63   ,        ,     79
+Cu0.300Mn0.300Ni0.300Sn0.100              , A1 + H-L21                                                  ,      ,  255  , C            ,  620   ,          ,   20   ,        ,     79
+Cu0.267Mn0.267Ni0.267Sn0.200              , A1 + H-L21                                                  ,      ,  533  ,              ,        ,          ,        ,        ,     79
+Cu0.250Mn0.250Ni0.250Sn0.250              , H-L21                                                       ,      ,  507  ,              ,        ,          ,        ,        ,     79
+Cu0.267Mn0.267Ni0.267Zn0.200              , A1                                                          ,      ,  113  , C            ,  140   ,          ,   65   ,        ,     79
+Cu0.250Mn0.250Ni0.250Zn0.250              , A1                                                          ,      ,  128  , C            ,  215   ,          ,   60   ,        ,     79
+Cu0.217Mn0.217Ni0.217Zn0.350              , A1 + B2                                                     ,      ,  242  ,              ,        ,          ,        ,        ,     79
+Cu0.200Mn0.200Ni0.200Zn0.400              , A1 + B2                                                     ,      ,  253  ,              ,        ,          ,        ,        ,     79
+Cu0.300Mn0.300Ni0.300Al0.050Sn0.050       , A1 + H-L21                                                  ,      ,  303  ,              ,        ,          ,        ,        ,     79
+Cu0.250Mn0.250Ni0.250Al0.050Zn0.200       , A1 + H-L21                                                  ,      ,  271  ,              ,        ,          ,        ,        ,     79
+Cu0.200Mn0.200Ni0.200Al0.050Zn0.350       , B1 + B2                                                     ,      ,  281  ,              ,        ,          ,        ,        ,     79
+Cu0.267Mn0.267Ni0.267Al0.100Zn0.100       , A1 + H-L21                                                  ,      ,  321  ,              ,        ,          ,        ,        ,     79
+Cu0.233Mn0.233Ni0.233Al0.100Zn0.200       , A1 + H-L21                                                  ,      ,  306  ,              ,        ,          ,        ,        ,     79
+Cu0.250Mn0.250Ni0.250Sn0.050Zn0.200       , A1 + H-L21                                                  ,      ,  286  ,              ,        ,          ,        ,        ,     79
+Cu0.200Mn0.200Ni0.200Sn0.050Zn0.350       , A1 + H-L21 + Mn-rich                                        ,      ,  376  ,              ,        ,          ,        ,        ,     79
+Cu0.233Mn0.233Ni0.233Sn0.100Zn0.200       , A1 + H-L21 + Mn-rich                                        ,      ,  372  ,              ,        ,          ,        ,        ,     79
